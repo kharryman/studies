@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "952968529882",
+    "firebase_url": "https://biology-cheatlists.firebaseio.com",
+    "project_id": "biology-cheatlists",
+    "storage_bucket": "biology-cheatlists.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952968529882:android:818e0b384db45c10d2a2e3",
+        "android_client_info": {
+          "package_name": "com.lfq.biology_cheatlists"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952968529882-3v8p7g1rpplon2cr6jivetolpdhua4nk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVCyemf_IUKuTB5AgRrQII6aJDFX3DTHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952968529882-3v8p7g1rpplon2cr6jivetolpdhua4nk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-8514966468184377~3569828390"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952968529882:android:99bc6c4290d67064d2a2e3",
+        "android_client_info": {
+          "package_name": "com.lfq.cheatlists_biology"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952968529882-3v8p7g1rpplon2cr6jivetolpdhua4nk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVCyemf_IUKuTB5AgRrQII6aJDFX3DTHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952968529882-3v8p7g1rpplon2cr6jivetolpdhua4nk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952968529882:android:09767b0ce159f2fdd2a2e3",
+        "android_client_info": {
+          "package_name": "com.lfq.cheatlists_math"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952968529882-3v8p7g1rpplon2cr6jivetolpdhua4nk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVCyemf_IUKuTB5AgRrQII6aJDFX3DTHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952968529882-3v8p7g1rpplon2cr6jivetolpdhua4nk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
