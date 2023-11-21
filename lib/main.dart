@@ -81,7 +81,6 @@ class MyHomePage extends StatefulWidget {
 class MyHomePageState extends State<MyHomePage> {
   late StreamSubscription<ConnectivityResult> subscription;
   String selectedSubject = "";
-  FocusNode myFocusNode = FocusNode();
   TextEditingController autoSubjectController = TextEditingController();
   TextEditingController autoAllController = TextEditingController();
   List<String> selectedTitles = [];
@@ -89,6 +88,8 @@ class MyHomePageState extends State<MyHomePage> {
   List<String> selectedAllTitles = [];
   List<String> filteredAllTitles = [];
   GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
+  FocusNode subjectFocusNode = FocusNode();
+  FocusNode allFocusNode = FocusNode();
 
   @override
   void initState() {
@@ -214,7 +215,6 @@ class MyHomePageState extends State<MyHomePage> {
   getImage(imageUri) {
     if (imageUri != null) {
       ImageProvider<Object>? myImageProvider = AssetImage(imageUri);
-
       try {
         // ignore: unnecessary_null_comparison
         if (myImageProvider != null) {
@@ -353,11 +353,8 @@ class MyHomePageState extends State<MyHomePage> {
         if (entry["type"] == 'NORMAL') {
           if (entry["image"] != null) {
             try {
-              imageUri = ("images/").toString() +
-                  topic["imageFolder"] +
-                  ("/").toString() +
-                  entry["image"] +
-                  (".jpg").toString();
+              imageUri =
+                  "assets/images/${topic["imageFolder"]}/${entry["image"]}.jpg";
               print("imageUri = $imageUri");
               shouldDisplayImage = true;
             } catch (e) {
@@ -368,7 +365,7 @@ class MyHomePageState extends State<MyHomePage> {
 
           List<Widget> moreCols = [
             Visibility(
-                visible: (isFiltered == true && enytryIndex++ == 0),
+                visible: (isFiltered == true && e == 0),
                 child: Container(
                     width: MediaQuery.of(context).size.width,
                     color: Color.fromARGB(197, 254, 145, 201),
@@ -382,6 +379,7 @@ class MyHomePageState extends State<MyHomePage> {
             Visibility(
                 visible: (entry["image"] != null && imageUri != null),
                 child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
                   child: shouldDisplayImage
                       ? getImage(imageUri)
                       : SizedBox(width: 0, height: 0),
@@ -403,7 +401,15 @@ class MyHomePageState extends State<MyHomePage> {
               children: [
                 Visibility(
                     visible: (isFiltered == true && e == 0),
-                    child: Text(subheader)),
+                    child: Container(
+                        width: MediaQuery.of(context).size.width,
+                        color: Color.fromARGB(197, 254, 145, 201),
+                        child: Center(
+                            child: Text(subheader,
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    color: Color.fromARGB(255, 71, 3, 63),
+                                    fontSize: 20))))),
                 getTitle(entry),
                 Center(
                   child: Padding(
@@ -469,8 +475,16 @@ class MyHomePageState extends State<MyHomePage> {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Visibility(
-                    visible: (isFiltered == true && enytryIndex++ == 0),
-                    child: Text(subheader)),
+                    visible: (isFiltered == true && e == 0),
+                    child: Container(
+                        width: MediaQuery.of(context).size.width,
+                        color: Color.fromARGB(197, 254, 145, 201),
+                        child: Center(
+                            child: Text(subheader,
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    color: Color.fromARGB(255, 71, 3, 63),
+                                    fontSize: 20))))),
                 getTitle(entry),
                 Column(children: [
                   Padding(
@@ -722,9 +736,9 @@ class MyHomePageState extends State<MyHomePage> {
     //  isMakeMajor = false;
     //});
     var adUnitId = Platform.isAndroid
-        ? 'ca-app-pub-8514966468184377/1433817858'
+        ? 'ca-app-pub-8514966468184377/6678548869'
         : 'ca-app-pub-8514966468184377/1586501727';
-    print("Using appId: $adUnitId kDebugMode = $kDebugMode");
+    print("Using adUnitId: $adUnitId kDebugMode = $kDebugMode");
     InterstitialAd.load(
         adUnitId: adUnitId,
         request: request,
@@ -805,373 +819,420 @@ class MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Center(child: Text(widget.title)),
-      ),
-      body: Container(
-        width: MediaQuery.of(context).size.width,
-        height: MediaQuery.of(context).size.height,
-        decoration: BoxDecoration(
-          color: Color.fromARGB(255, 220, 48, 194),
-          image: DecorationImage(
-              image: AssetImage(
-                  'assets/images/main_background.png'), // Replace with your image path
-              fit: BoxFit.cover,
-              opacity: 0.10 // Adjust the BoxFit as needed
-              ),
+        appBar: AppBar(
+          backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+          title: Center(child: Text(widget.title)),
         ),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Center(
-              child: Column(
-                children: [
-                  SizedBox(height: 25),
-                  Container(
-                    decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.all(Radius.circular(10)),
-                        border: Border.all(
-                            color: const Color.fromARGB(255, 79, 66, 66),
-                            width: 3)),
-                    child: Column(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children: <Widget>[
-                          Container(
-                              width: MediaQuery.of(context).size.width * 0.90,
-                              decoration: BoxDecoration(
-                                  color: Color.fromARGB(255, 209, 107, 194)),
-                              child: Center(
-                                  child: Text(
-                                      'Search subject: (${filteredSelectedTitles.length} titles)'))),
-                          Padding(
-                              padding: const EdgeInsets.fromLTRB(5, 5, 5, 5),
-                              child: Container(
-                                width: MediaQuery.of(context).size.width * 0.90,
-                                decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(10),
-                                    color: Colors.purple.shade100),
-                                child: DropdownButton<String>(
-                                  alignment: Alignment.center,
-                                  dropdownColor: Colors.white,
-                                  value: selectedSubject,
-                                  onChanged: (newValue) {
-                                    setSubject(newValue.toString());
-                                    //appState.selectedTheme = newValue!;
-                                    //});
-                                  },
-                                  items: MyHomePage()
-                                      .dropdownSubjects
-                                      .map<DropdownMenuItem<String>>(
-                                          (String value) {
-                                    return DropdownMenuItem<String>(
-                                      value: value,
-                                      child: Text(value,
-                                          style: TextStyle(fontSize: 12)),
-                                    );
-                                  }).toList(),
-                                ),
-                              )),
-                          Container(
-                              width: MediaQuery.of(context).size.width * 0.90,
-                              decoration: BoxDecoration(
-                                  color: Colors.white,
-                                  border: Border.all(color: Colors.black)),
-                              child: Autocomplete<String>(
-                                fieldViewBuilder: ((context,
-                                    textEditingController,
-                                    focusNode,
-                                    onFieldSubmitted) {
-                                  autoSubjectController = textEditingController;
-                                  myFocusNode = focusNode;
-                                  return TextFormField(
-                                      controller: autoSubjectController,
-                                      focusNode: focusNode,
-                                      onEditingComplete: onFieldSubmitted,
-                                      decoration: InputDecoration(
-                                        hintText: " Search '$selectedSubject'",
-                                        suffixIcon: autoSubjectController
-                                                .text.isNotEmpty
-                                            ? IconButton(
-                                                icon: Icon(Icons.clear),
-                                                onPressed: () {
-                                                  setState(() {
-                                                    autoSubjectController
-                                                        .clear();
-                                                    filteredSelectedTitles =
-                                                        selectedTitles;
-                                                  });
-                                                },
-                                              )
-                                            : null,
-                                      ));
-                                }),
-                                //displayStringForOption: (option) => option.split(":")[0],
-                                optionsBuilder:
-                                    (TextEditingValue textEditingValue) {
-                                  Iterable<String> ret =
-                                      Iterable<String>.empty();
-                                  // ignore: unnecessary_null_comparison
-                                  if (textEditingValue.text == null ||
-                                      textEditingValue.text == '') {
-                                    ret = selectedTitles.where((String option) {
-                                      return true;
-                                    });
-                                  } else {
-                                    ret = selectedTitles.where((String option) {
-                                      return option.toLowerCase().contains(
-                                          textEditingValue.text.toLowerCase());
-                                    });
-                                  }
-                                  setState(() {
-                                    filteredSelectedTitles = ret.toList();
-                                  });
-                                  return ret;
-                                },
-                                onSelected: (String selection) {
-                                  debugPrint('You just selected $selection');
-                                },
-                              )),
-                          Container(
-                            width: MediaQuery.of(context).size.width * 0.90,
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius
-                                  .horizontal(), // Apply a border radius
-                              color: Colors.transparent,
-                            ),
-                            child: Padding(
-                              padding: const EdgeInsets.all(3.0),
-                              child: ElevatedButton(
-                                style: ElevatedButton.styleFrom(
-                                  backgroundColor: Colors
-                                      .black, // Set the background color to black
-                                ),
-                                onPressed: () =>
-                                    doSeeCheatlists(context, false),
-                                child: Padding(
-                                  padding: const EdgeInsets.all(3.0),
-                                  child: Text(
-                                      (filteredSelectedTitles.length ==
-                                              selectedTitles.length
-                                          ? "SHOW '$selectedSubject' (${filteredSelectedTitles.length})"
-                                          : "Show '$selectedSubject' Titles (${filteredSelectedTitles.length})"),
-                                      style: TextStyle(
-                                          height: 0.90,
-                                          color: Colors.green,
-                                          fontSize: 18)),
-                                ),
-                              ),
-                            ),
-                          ),
-                        ]),
+        body: SingleChildScrollView(
+          scrollDirection: Axis.vertical,
+          child: Container(
+            width: MediaQuery.of(context).size.width,
+            height: MediaQuery.of(context).size.height,
+            decoration: BoxDecoration(
+              color: Color.fromARGB(255, 220, 48, 194),
+              image: DecorationImage(
+                  image: AssetImage(
+                      'assets/images/main_background.png'), // Replace with your image path
+                  fit: BoxFit.cover,
+                  opacity: 0.10 // Adjust the BoxFit as needed
                   ),
-                  Container(
-                      decoration: BoxDecoration(
-                          color: Color.fromARGB(100, 255, 255, 255),
-                          borderRadius: BorderRadius.all(Radius.circular(50))),
-                      child: Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Text("OR",
-                            style: TextStyle(
-                                fontSize: 20, fontStyle: FontStyle.italic)),
-                      )),
-                  Container(
-                    decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.all(Radius.circular(10)),
-                        border: Border.all(
-                            color: const Color.fromARGB(255, 79, 66, 66),
-                            width: 3)),
-                    child: Padding(
-                      padding: const EdgeInsets.fromLTRB(3, 3, 3, 0),
-                      child: Column(
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.fromLTRB(0, 0, 0, 3),
-                            child: Container(
-                                width: MediaQuery.of(context).size.width * 0.90,
-                                decoration: BoxDecoration(
-                                    color: Color.fromARGB(255, 209, 107, 194)),
-                                child: Center(
-                                    child: Text(
-                                        'Search All Subjects: (${filteredAllTitles.length} titles)'))),
-                          ),
-                          Container(
-                              width: MediaQuery.of(context).size.width * 0.90,
-                              decoration: BoxDecoration(
-                                  color: Colors.white,
-                                  border: Border.all(color: Colors.black)),
-                              child: Autocomplete<String>(
-                                fieldViewBuilder: ((context,
-                                    textEditingController,
-                                    focusNode,
-                                    onFieldSubmitted) {
-                                  autoAllController = textEditingController;
-                                  myFocusNode = focusNode;
-                                  return TextFormField(
-                                      controller: autoAllController,
-                                      focusNode: focusNode,
-                                      onEditingComplete: onFieldSubmitted,
-                                      decoration: InputDecoration(
-                                        contentPadding: EdgeInsets.all(2),
-                                        hintText: " Search All Subjects",
-                                        suffixIcon: autoAllController
-                                                .text.isNotEmpty
-                                            ? IconButton(
-                                                icon: Icon(Icons.clear),
-                                                onPressed: () {
-                                                  setState(() {
-                                                    autoAllController.clear();
-                                                    filteredAllTitles =
-                                                        selectedAllTitles;
-                                                  });
-                                                },
-                                              )
-                                            : null,
-                                      ));
-                                }),
-                                //displayStringForOption: (option) => option.split(":")[0],
-                                optionsBuilder:
-                                    (TextEditingValue textEditingValue) {
-                                  Iterable<String> ret =
-                                      Iterable<String>.empty();
-                                  // ignore: unnecessary_null_comparison
-                                  if (textEditingValue.text == null ||
-                                      textEditingValue.text == '') {
-                                    ret = selectedAllTitles
-                                        .where((String option) {
-                                      return true;
-                                    });
-                                  } else {
-                                    ret = selectedAllTitles
-                                        .where((String option) {
-                                      return option.toLowerCase().contains(
-                                          textEditingValue.text.toLowerCase());
-                                    });
-                                  }
-                                  setState(() {
-                                    filteredAllTitles = ret.toList();
-                                  });
-                                  return ret;
-                                },
-                                onSelected: (String selection) {
-                                  debugPrint('You just selected $selection');
-                                },
-                              )),
-                          Container(
-                            width: MediaQuery.of(context).size.width * 0.90,
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius
-                                  .horizontal(), // Apply a border radius
-                              color: Colors.transparent,
-                            ),
-                            child: Padding(
-                              padding: const EdgeInsets.all(3.0),
-                              child: ElevatedButton(
-                                style: ElevatedButton.styleFrom(
-                                  backgroundColor: Color.fromARGB(255, 22, 3,
-                                      32), // Set the background color to black
-                                ),
-                                onPressed: () => doSeeCheatlists(context, true),
-                                child: Padding(
-                                  padding: const EdgeInsets.all(3.0),
-                                  child: Text(
-                                      (filteredAllTitles.length ==
-                                              selectedAllTitles.length
-                                          ? "SHOW ALL (${filteredAllTitles.length})"
-                                          : "Show All Titles (${filteredAllTitles.length})"),
-                                      style: TextStyle(
-                                          height: 0.90,
-                                          color: Colors.green,
-                                          fontSize: 18)),
-                                ),
-                              ),
-                            ),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
-                  Visibility(
-                    visible: isLinkPlayStore(),
-                    child: Padding(
-                      padding: EdgeInsets.fromLTRB(10, 15, 5, 5),
-                      child: Container(
-                          width: MediaQuery.of(context).size.width * 0.5,
-                          constraints: BoxConstraints(minWidth: 250),
-                          child: ElevatedButton(
-                            onPressed: () {
-                              launch(
-                                  'https://play.google.com/store/apps/dev?id=5263177578338103821');
-                            },
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: const Color.fromARGB(
-                                  255,
-                                  136,
-                                  17,
-                                  110), // Change the button's background color
-                              foregroundColor:
-                                  Colors.white, // Change the text color
-                            ),
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: <Widget>[
-                                Icon(
-                                    Icons.play_circle_fill), // Google Play icon
-                                SizedBox(
-                                    width:
-                                        8), // Add some space between the icon and text
-                                Text('See other cheatlists from Play Store',
-                                    maxLines: 2,
-                                    softWrap: true,
-                                    style: TextStyle(fontSize: 10)), // Text
-                              ],
-                            ),
-                          )),
-                    ),
-                  ),
-                  Visibility(
-                    visible: isLinkAppStore(),
-                    child: Padding(
-                        padding: EdgeInsets.fromLTRB(10, 15, 5, 5),
-                        child: Container(
-                            width: MediaQuery.of(context).size.width * 0.5,
-                            constraints: BoxConstraints(minWidth: 250),
-                            child: ElevatedButton(
-                              onPressed: () {
-                                launch(
-                                    'https://apps.apple.com/us/developer/keith-harryman/id1693739510');
-                              },
-                              style: ElevatedButton.styleFrom(
-                                backgroundColor: Color.fromARGB(255, 136, 17,
-                                    110), // Change the button's background color
-                                foregroundColor:
-                                    Colors.white, // Change the text color
-                              ),
-                              child: Row(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: <Widget>[
-                                  Icon(
-                                      Icons.download_sharp), // Google Play icon
-                                  SizedBox(
-                                      width:
-                                          8), // Add some space between the icon and text
-                                  Text('See other cheatlists from App Store',
-                                      softWrap: true,
-                                      maxLines: 2,
-                                      style: TextStyle(fontSize: 10)), // Text
-                                ],
-                              ),
-                            ))),
-                  )
-                ],
-              ),
             ),
-          ],
-        ),
-      ),
-    );
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Center(
+                  child: Column(
+                    children: [
+                      SizedBox(height: 25),
+                      Container(
+                        decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.all(Radius.circular(10)),
+                            border: Border.all(
+                                color: const Color.fromARGB(255, 79, 66, 66),
+                                width: 3)),
+                        child: Column(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            children: <Widget>[
+                              Container(
+                                  width:
+                                      MediaQuery.of(context).size.width * 0.90,
+                                  decoration: BoxDecoration(
+                                      color:
+                                          Color.fromARGB(255, 241, 224, 238)),
+                                  child: Center(
+                                      child: Text(
+                                          'Search subject: (${filteredSelectedTitles.length} titles)',
+                                          style: TextStyle(fontSize: 18)))),
+                              Padding(
+                                  padding:
+                                      const EdgeInsets.fromLTRB(5, 5, 5, 5),
+                                  child: Container(
+                                    width: MediaQuery.of(context).size.width *
+                                        0.90,
+                                    decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(10),
+                                        color: Colors.purple.shade100),
+                                    child: DropdownButtonHideUnderline(
+                                      child: DropdownButton<String>(
+                                        alignment: Alignment.center,
+                                        dropdownColor: Colors.white,
+                                        value: selectedSubject,
+                                        onChanged: (newValue) {
+                                          setSubject(newValue.toString());
+                                          //appState.selectedTheme = newValue!;
+                                          //});
+                                        },
+                                        items: MyHomePage()
+                                            .dropdownSubjects
+                                            .map<DropdownMenuItem<String>>(
+                                                (String value) {
+                                          return DropdownMenuItem<String>(
+                                            value: value,
+                                            child: Column(
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.center,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.start,
+                                              children: [
+                                                Text(value),
+                                                Divider(
+                                                    height: 1,
+                                                    color: Colors.grey),
+                                              ],
+                                            ),
+                                          );
+                                        }).toList(),
+                                      ),
+                                    ),
+                                  )),
+                              Container(
+                                  width:
+                                      MediaQuery.of(context).size.width * 0.90,
+                                  decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      border: Border.all(color: Colors.black)),
+                                  child: Autocomplete<String>(
+                                    fieldViewBuilder: ((context,
+                                        textEditingController,
+                                        focusNode,
+                                        onFieldSubmitted) {
+                                      autoSubjectController =
+                                          textEditingController;
+                                      subjectFocusNode = focusNode;
+                                      return TextFormField(
+                                          controller: autoSubjectController,
+                                          focusNode: subjectFocusNode,
+                                          onEditingComplete: (() {
+                                            subjectFocusNode.unfocus();
+                                          }),
+                                          decoration: InputDecoration(
+                                            hintText:
+                                                " Search '$selectedSubject'",
+                                            suffixIcon: autoSubjectController
+                                                    .text.isNotEmpty
+                                                ? IconButton(
+                                                    icon: Icon(Icons.clear),
+                                                    onPressed: () {
+                                                      setState(() {
+                                                        autoSubjectController
+                                                            .clear();
+                                                        filteredSelectedTitles =
+                                                            selectedTitles;
+                                                      });
+                                                    },
+                                                  )
+                                                : null,
+                                          ));
+                                    }),
+                                    //displayStringForOption: (option) => option.split(":")[0],
+                                    optionsBuilder:
+                                        (TextEditingValue textEditingValue) {
+                                      Iterable<String> ret =
+                                          Iterable<String>.empty();
+                                      // ignore: unnecessary_null_comparison
+                                      if (textEditingValue.text == null ||
+                                          textEditingValue.text == '') {
+                                        ret = selectedTitles
+                                            .where((String option) {
+                                          return true;
+                                        });
+                                      } else {
+                                        ret = selectedTitles
+                                            .where((String option) {
+                                          return option.toLowerCase().contains(
+                                              textEditingValue.text
+                                                  .toLowerCase());
+                                        });
+                                      }
+                                      setState(() {
+                                        filteredSelectedTitles = ret.toList();
+                                      });
+                                      return ret;
+                                    },
+                                    onSelected: (String selection) {
+                                      debugPrint(
+                                          'You just selected $selection');
+                                    },
+                                  )),
+                              Container(
+                                width: MediaQuery.of(context).size.width * 0.90,
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius
+                                      .horizontal(), // Apply a border radius
+                                  color: Colors.transparent,
+                                ),
+                                child: Padding(
+                                  padding: const EdgeInsets.all(3.0),
+                                  child: ElevatedButton(
+                                    style: ElevatedButton.styleFrom(
+                                      backgroundColor: Colors
+                                          .black, // Set the background color to black
+                                    ),
+                                    onPressed: () =>
+                                        doSeeCheatlists(context, false),
+                                    child: Padding(
+                                      padding: const EdgeInsets.all(3.0),
+                                      child: Text(
+                                          (filteredSelectedTitles.length ==
+                                                  selectedTitles.length
+                                              ? "SHOW '$selectedSubject' (${filteredSelectedTitles.length})"
+                                              : "Show '$selectedSubject' Titles (${filteredSelectedTitles.length})"),
+                                          style: TextStyle(
+                                              height: 0.90,
+                                              color: Colors.green,
+                                              fontSize: 18)),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ]),
+                      ),
+                      Container(
+                          decoration: BoxDecoration(
+                              color: Color.fromARGB(100, 255, 255, 255),
+                              borderRadius:
+                                  BorderRadius.all(Radius.circular(50))),
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text("OR",
+                                style: TextStyle(
+                                    fontSize: 20, fontStyle: FontStyle.italic)),
+                          )),
+                      Container(
+                        decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.all(Radius.circular(10)),
+                            border: Border.all(
+                                color: const Color.fromARGB(255, 79, 66, 66),
+                                width: 3)),
+                        child: Padding(
+                          padding: const EdgeInsets.fromLTRB(3, 3, 3, 0),
+                          child: Column(
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.fromLTRB(0, 0, 0, 3),
+                                child: Container(
+                                    width: MediaQuery.of(context).size.width *
+                                        0.90,
+                                    decoration: BoxDecoration(
+                                        color:
+                                            Color.fromARGB(255, 241, 224, 238)),
+                                    child: Center(
+                                        child: Text(
+                                            'Search All Subjects: (${filteredAllTitles.length} titles)',
+                                            style: TextStyle(fontSize: 18)))),
+                              ),
+                              Container(
+                                  width:
+                                      MediaQuery.of(context).size.width * 0.90,
+                                  decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      border: Border.all(color: Colors.black)),
+                                  child: Autocomplete<String>(
+                                    fieldViewBuilder: ((context,
+                                        textEditingController,
+                                        focusNode,
+                                        onFieldSubmitted) {
+                                      autoAllController = textEditingController;
+                                      allFocusNode = focusNode;
+                                      return TextFormField(
+                                          controller: autoAllController,
+                                          focusNode: focusNode,
+                                          onEditingComplete: (() {
+                                            allFocusNode.unfocus();
+                                          }),
+                                          decoration: InputDecoration(
+                                            contentPadding: EdgeInsets.all(2),
+                                            hintText: " Search All Subjects",
+                                            suffixIcon: autoAllController
+                                                    .text.isNotEmpty
+                                                ? IconButton(
+                                                    icon: Icon(Icons.clear),
+                                                    onPressed: () {
+                                                      setState(() {
+                                                        autoAllController
+                                                            .clear();
+                                                        filteredAllTitles =
+                                                            selectedAllTitles;
+                                                      });
+                                                    },
+                                                  )
+                                                : null,
+                                          ));
+                                    }),
+                                    //displayStringForOption: (option) => option.split(":")[0],
+                                    optionsBuilder:
+                                        (TextEditingValue textEditingValue) {
+                                      Iterable<String> ret =
+                                          Iterable<String>.empty();
+                                      // ignore: unnecessary_null_comparison
+                                      if (textEditingValue.text == null ||
+                                          textEditingValue.text == '') {
+                                        ret = selectedAllTitles
+                                            .where((String option) {
+                                          return true;
+                                        });
+                                      } else {
+                                        ret = selectedAllTitles
+                                            .where((String option) {
+                                          return option.toLowerCase().contains(
+                                              textEditingValue.text
+                                                  .toLowerCase());
+                                        });
+                                      }
+                                      setState(() {
+                                        filteredAllTitles = ret.toList();
+                                      });
+                                      return ret;
+                                    },
+                                    onSelected: (String selection) {
+                                      debugPrint(
+                                          'You just selected $selection');
+                                    },
+                                  )),
+                              Container(
+                                width: MediaQuery.of(context).size.width * 0.90,
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius
+                                      .horizontal(), // Apply a border radius
+                                  color: Colors.transparent,
+                                ),
+                                child: Padding(
+                                  padding: const EdgeInsets.all(3.0),
+                                  child: ElevatedButton(
+                                    style: ElevatedButton.styleFrom(
+                                      backgroundColor: Color.fromARGB(
+                                          255,
+                                          22,
+                                          3,
+                                          32), // Set the background color to black
+                                    ),
+                                    onPressed: () =>
+                                        doSeeCheatlists(context, true),
+                                    child: Padding(
+                                      padding: const EdgeInsets.all(3.0),
+                                      child: Text(
+                                          (filteredAllTitles.length ==
+                                                  selectedAllTitles.length
+                                              ? "SHOW ALL (${filteredAllTitles.length})"
+                                              : "Show All Titles (${filteredAllTitles.length})"),
+                                          style: TextStyle(
+                                              height: 0.90,
+                                              color: Colors.green,
+                                              fontSize: 18)),
+                                    ),
+                                  ),
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                      Visibility(
+                        visible: isLinkPlayStore(),
+                        child: Padding(
+                          padding: EdgeInsets.fromLTRB(10, 15, 5, 5),
+                          child: Container(
+                              width: MediaQuery.of(context).size.width * 0.9,
+                              constraints: BoxConstraints(minWidth: 250),
+                              child: ElevatedButton(
+                                onPressed: () {
+                                  launch(
+                                      'https://play.google.com/store/apps/dev?id=5263177578338103821');
+                                },
+                                style: ElevatedButton.styleFrom(
+                                  backgroundColor: const Color.fromARGB(
+                                      255,
+                                      136,
+                                      17,
+                                      110), // Change the button's background color
+                                  foregroundColor:
+                                      Colors.white, // Change the text color
+                                ),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: <Widget>[
+                                    Icon(Icons
+                                        .play_circle_fill), // Google Play icon
+                                    SizedBox(
+                                        width:
+                                            8), // Add some space between the icon and text
+                                    Text('See other cheatlists from Play Store',
+                                        maxLines: 2,
+                                        softWrap: true,
+                                        style: TextStyle(fontSize: 12)), // Text
+                                  ],
+                                ),
+                              )),
+                        ),
+                      ),
+                      Visibility(
+                        visible: isLinkAppStore(),
+                        child: Padding(
+                            padding: EdgeInsets.fromLTRB(10, 15, 5, 5),
+                            child: Container(
+                                width: MediaQuery.of(context).size.width * 0.9,
+                                constraints: BoxConstraints(minWidth: 250),
+                                child: ElevatedButton(
+                                  onPressed: () {
+                                    launch(
+                                        'https://apps.apple.com/us/developer/keith-harryman/id1693739510');
+                                  },
+                                  style: ElevatedButton.styleFrom(
+                                    backgroundColor: Color.fromARGB(
+                                        255,
+                                        136,
+                                        17,
+                                        110), // Change the button's background color
+                                    foregroundColor:
+                                        Colors.white, // Change the text color
+                                  ),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: <Widget>[
+                                      Icon(Icons
+                                          .download_sharp), // Google Play icon
+                                      SizedBox(
+                                          width:
+                                              8), // Add some space between the icon and text
+                                      Text(
+                                          'See other cheatlists from App Store',
+                                          softWrap: true,
+                                          maxLines: 2,
+                                          style:
+                                              TextStyle(fontSize: 12)), // Text
+                                    ],
+                                  ),
+                                ))),
+                      )
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ));
   }
 }

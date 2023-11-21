@@ -1,4 +1,4 @@
-package com.example.studies
+package com.lfq.studies_biology
 
 import io.flutter.embedding.android.FlutterActivity
 
