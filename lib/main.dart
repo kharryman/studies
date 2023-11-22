@@ -48,7 +48,7 @@ Future<void> main() async {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-  final int ofThousandShowAds = 425;
+  final int ofThousandShowAds = 250;
 
   // This widget is the root of your application.
   @override
@@ -737,7 +737,7 @@ class MyHomePageState extends State<MyHomePage> {
     //});
     var adUnitId = Platform.isAndroid
         ? 'ca-app-pub-8514966468184377/6678548869'
-        : 'ca-app-pub-8514966468184377/1586501727';
+        : 'ca-app-pub-8514966468184377/5934520828';
     print("Using adUnitId: $adUnitId kDebugMode = $kDebugMode");
     InterstitialAd.load(
         adUnitId: adUnitId,

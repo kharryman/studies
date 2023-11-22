@@ -13,11 +13,6 @@ var doRenameFPackageFiles = async function () {
     var capitalizedNewAppName = new_app.substring(0, 1).toUpperCase() + new_app.substring(1).toLowerCase() + " Cheatlists";
     var appNameRegExp = new RegExp(capitalizedOldAppName, "g");
 
-    //RENAME APP ANDROID: AndroidManifest.xml:
-    var manifestText = await fs.readFileSync(currentDirectory + "android/app/src/main/AndroidManifest.xml");
-    manifestText = String(BuildGradleText).replace(appNameRegExp, capitalizedNewAppName);
-    await fs.writeFileSync(currentDirectory + "android/app/src/main/AndroidManifest.xml", manifestText, 'utf8');                
-
 
     //RENAME PACKAGE ANDROID: build.gradle
     var BuildGradleText = await fs.readFileSync(currentDirectory + "/android/app/build.gradle");

@@ -16,7 +16,7 @@ CALL COPY /Y .\env_vars\%new_app%_data\%new_app%_pubspec.yaml .\pubspec.yaml
 CALL ECHO "COPYING .\env_vars\%new_app%_data\%new_app%_AndroidManifest.xml TO .\android\app\src\main.AndroidManifest.xml..."
 CALL COPY /Y .\env_vars\%new_app%_data\%new_app%__AndroidManifest.xml .\android\app\src\main.AndroidManifest.xml
 
-CALL node rename_package_files.js %old_app% %new_app%
+CALL node rename_package_files_android.js %old_app% %new_app%
 
 CALL ECHO "COPYING APP ICONS..."
 CALL xcopy /Y /s /q .\env_vars\%new_app%_data\icons\android .\android\app\src\main\res
