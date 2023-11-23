@@ -720,21 +720,19 @@ class MyHomePageState extends State<MyHomePage> {
 
   static final AdRequest request = AdRequest(
     keywords: <String>[
-      'acrostics generator',
-      'memorize lists',
-      'improve memory',
-      'remember words',
-      'define words'
+      'cheatsheet',
+      'exam',
+      'test',
+      'study subjects',
+      'biology',
+      'science'
     ],
-    contentUrl: 'https://learnfactsquick.com/#/alphabet_acrostics_generator',
+    contentUrl: 'https://learnfactsquick.com/#/',
     nonPersonalizedAds: true,
   );
 
   void createInterstitialAd() {
     print("createInterstitialAd interstitialAd CALLED.");
-    //setState(() {
-    //  isMakeMajor = false;
-    //});
     var adUnitId = Platform.isAndroid
         ? 'ca-app-pub-8514966468184377/6678548869'
         : 'ca-app-pub-8514966468184377/5934520828';
