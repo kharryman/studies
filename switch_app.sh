@@ -12,11 +12,11 @@ cp ./env_vars/"$new_app"_data/info.js ./lib/cheatlist_data/info.js
 echo "COPYING TO \assets\images..."
 rm -r ./assets/images
 cp -r ./env_vars/"$new_app"_data/images ./assets/images
-echo "COPYING ./env_vars/"$new_app"_data/"$new_app"_pubspec.yaml TO ./pubspec.yaml..."
-cp ./env_vars/"$new_app"_data/"$new_app"_pubspec.yaml ./pubspec.yaml
-echo "COPYING ./env_vars/"$new_app"_data/"$new_app"_AndroidManifest.xml TO ./android/app/src/main/AndroidManifest.xml..."
-#cp ./env_vars/"$new_app"_data/"$new_app"_AndroidManifest.xml ./android/app/src/main/AndroidManifest.xml
-flutter pub run change_app_package_name:main com.lfq.studies-"$new_app
+echo "COPYING ./env_vars/"$new_app"_data/pubspec.yaml TO ./pubspec.yaml..."
+cp ./env_vars/"$new_app"_data/pubspec.yaml ./pubspec.yaml
+echo "COPYING ./env_vars/"$new_app"_data/Info.plist TO ./ios/Runner/Info.plist..."
+cp ./env_vars/"$new_app"_data/Info.plist TO ./ios/Runner/Info.plist
+flutter pub run change_app_package_name:main com.lfq.studies-$new_app
 node rename_package_files_ios.js $old_app $new_app
 echo "COPYING APP ICONS..."
 #cp -r ./env_vars/"$new_app"_data/icons/android ./android/app/src/main/res

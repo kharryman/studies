@@ -1,5 +1,5 @@
 const dynamic infoData = {
-  "mainTopicName": "Biology",
-  "subtopic": "Biology",
-  "packageName": "com.lfq.cheatlists_biology"
+  "mainTopicName": "Psychology",
+  "subtopic": "Psychology",
+  "packageName": "com.lfq.studies_psychology"
 };
