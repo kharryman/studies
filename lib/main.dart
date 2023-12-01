@@ -6,7 +6,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:studies/cheatlist.dart';
-import 'helper_functions.dart';
+//import 'helper_functions.dart';
 import 'cheatlist_data/data.dart';
 import 'cheatlist_data/info.dart';
 import 'package:flutter/foundation.dart';
