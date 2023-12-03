@@ -6,6 +6,8 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:studies/cheatlist.dart';
+import 'package:studies/video_player.dart';
+import 'package:studies/youtube_player.dart';
 //import 'helper_functions.dart';
 import 'cheatlist_data/data.dart';
 import 'cheatlist_data/info.dart';
@@ -14,6 +16,9 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter_math_fork/flutter_math.dart';
 import 'package:connectivity/connectivity.dart';
 import 'package:url_launcher/url_launcher.dart';
+//import 'package:chewie/chewie.dart';
+//import 'package:video_player/video_player.dart';
+//import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 const String testDevice = '974550CBC7D4EA4718A67165E2E3B868';
 const String myIpad = '00008020-0014301102D1002E';
@@ -344,6 +349,8 @@ class MyHomePageState extends State<MyHomePage> {
       List<dynamic> entries = List<dynamic>.from(topic["entries"]);
       List<dynamic> datas = [];
       bool shouldDisplayImage = false;
+      bool shouldDisplayVideo = false;
+      bool shouldDisplayYoutube = false;
       for (var e = 0; e < entries.length; e++) {
         entry = entries[e];
         //print("seeCheatlist entry = ${json.encode(entry)}");
@@ -361,6 +368,16 @@ class MyHomePageState extends State<MyHomePage> {
               print("LOAD IMAGE ERROR: $e");
               shouldDisplayImage = false;
             }
+          }
+
+          shouldDisplayVideo = false;
+          if (entry["video"] != null) {
+            //shouldDisplayVideo = true;
+          }
+
+          shouldDisplayYoutube = false;
+          if (entry["youtube"] != null) {
+            //shouldDisplayYoutube = true;
           }
 
           List<Widget> moreCols = [
@@ -384,8 +401,42 @@ class MyHomePageState extends State<MyHomePage> {
                       ? getImage(imageUri)
                       : SizedBox(width: 0, height: 0),
                 )),
+            Visibility(
+                visible: (entry["video"] != null),
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: shouldDisplayVideo
+                      // ignore: dead_code
+                      ? SizedBox(
+                          width: MediaQuery.of(context).size.width,
+                          height: 300,
+                          child: VideoPlayerScreen(
+                            videoUrl: entry["video"],
+                          ),
+                        )
+                      : SizedBox(width: 0, height: 0),
+                )),
+            Visibility(
+                visible: (entry["youtube"] != null),
+                child: SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: shouldDisplayYoutube
+                      // ignore: dead_code
+                      ? SizedBox(
+                          width: MediaQuery.of(context).size.width,
+                          height: 300,
+                          child: YouTubePlayerScreen(
+                            videoId: entry["youtube"],
+                          ),
+                        )
+                      : SizedBox(width: 0, height: 0),
+                ))
           ];
-          datas = List<dynamic>.from(entry["data"]);
+          if (entry["data"] != null) {
+            datas = List<dynamic>.from((entry["data"]));
+          } else {
+            datas = [];
+          }
           for (var d = 0; d < datas.length; d++) {
             moreCols.add(getWidget('NORMAL', datas[d]));
           }

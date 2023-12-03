@@ -43,6 +43,9 @@ dependencies:
   font_awesome_flutter: ^10.0.0
   flutter_math_fork: ^0.7.1
   connectivity: ^3.0.6
+  chewie: ^1.7.4
+  video_player: ^2.2.17
+  youtube_player_flutter: ^8.1.2
 
 dev_dependencies:
   flutter_native_splash: ^2.3.6
@@ -75,18 +78,28 @@ flutter:
     - assets/splash.png
     - assets/images/
     - assets/images/BASIC/
-    - assets/images/BEHAVIORAL_ECOLOGY/
-    - assets/images/CANCER_BIOLOGY/
-    - assets/images/CELL_BIOLOGY/
-    - assets/images/DEVELOPMENT/
-    - assets/images/ECOLOGY/
-    - assets/images/GENE_REGULATION/
-    - assets/images/GENETICS/
-    - assets/images/HOST_PATHOGEN_INTERACTIONS/
-    - assets/images/MARINE_BIOLOGY/
-    - assets/images/MICROBIOLOGY/
-    - assets/images/PLANT_BIOLOGY/
-    - assets/images/SYSTEMS_BIOLOGY/
+    - assets/images/EVOLUTIONARY_PSYCHOLOGY/
+    - assets/images/BEHAVIORAL_NEUROSCIENCE/
+    - assets/images/CLINICAL_PSYCHOLOGY/
+    - assets/images/COGNITIVE_PSYCHOLOGY/
+    - assets/images/COMMUNITY_PSYCHOLOGY/
+    - assets/images/COMPARITIVE_PSYCHOLOGY/
+    - assets/images/CONSUMER_PSYCHOLOGY/
+    - assets/images/DEVELOPMENTAL_PSYCHOLOGY/
+    - assets/images/EDUCATIONAL_PSYCHOLOGY/
+    - assets/images/ENVIRONMENTAL_PSYCHOLOGY/
+    - assets/images/FORENSIC_PSYCHOLOGY/
+    - assets/images/HEALTH_PSYCHOLOGY/
+    - assets/images/INDUSTRIAL_PSYCHOLOGY/
+    - assets/images/MILITARY_PSYCHOLOGY/
+    - assets/images/NEUROPSYCHOLOGY/
+    - assets/images/PERSONALITY_PSYCHOLOGY/
+    - assets/images/PSYCHOMETRIC_PSYCHOLOGY/
+    - assets/images/REHABILITATION_PSYCHOLOGY/
+    - assets/images/RESEARCH_PSYCHOLOGY/
+    - assets/images/SCHOOL_PSYCHOLOGY/
+    - assets/images/SOCIAL_PSYCHOLOGY/
+    - assets/images/SPORT_PSYCHOLOGY/    
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
