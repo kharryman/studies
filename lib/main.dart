@@ -74,10 +74,6 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatefulWidget {
   final String title = infoData["mainTopicName"] + " Cheatlists";
   MyHomePage();
-  final List<String> dropdownSubjects = List<String>.from(Set<String>.from(
-      List<dynamic>.from(cheatlistData["data"])
-          .toList()
-          .map((dynamic subj) => subj["itemName"])).toList());
 
   @override
   State<MyHomePage> createState() => MyHomePageState();
@@ -95,12 +91,28 @@ class MyHomePageState extends State<MyHomePage> {
   GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   FocusNode subjectFocusNode = FocusNode();
   FocusNode allFocusNode = FocusNode();
+  List<String> dropdownSubjects = [];
+  GlobalKey _dropdownKey = GlobalKey();
+  bool _isDropdownOpen = false;
 
   @override
   void initState() {
     super.initState();
-    print("dropdownSubjects = ${json.encode(MyHomePage().dropdownSubjects)}");
-    if (MyHomePage().dropdownSubjects.isNotEmpty) {
+    dropdownSubjects = [];
+    String dropdownOption = "";
+    List<String> gotSubjects = [];
+    for (dynamic subData
+        in List<dynamic>.from(cheatlistData["data"]).toList()) {
+      if (!gotSubjects.contains(subData["itemName"])) {
+        dropdownOption =
+            "${subData["itemName"]} (${(List<dynamic>.from(subData["entries"]).toList().length).toString()})";
+        dropdownSubjects.add(dropdownOption);
+        gotSubjects.add(subData["itemName"]);
+      }
+    }
+
+    print("dropdownSubjects = ${json.encode(dropdownSubjects)}");
+    if (dropdownSubjects.isNotEmpty) {
       List<String> addEntries = [];
       filteredAllTitles = [];
       List<dynamic> allCheatlist = List<dynamic>.from(cheatlistData["data"]);
@@ -112,9 +124,14 @@ class MyHomePageState extends State<MyHomePage> {
       }
       filteredAllTitles = selectedAllTitles;
 
-      selectedSubject = MyHomePage().dropdownSubjects[0];
+      selectedSubject = (dropdownSubjects[0]).toString();
+      //(dropdownSubjects[0]).toString().split(RegExp(r'\s\([0-9]{1,}\)'))[0];
+
+      print("GOT SELECTED SUBJECT = $selectedSubject");
       dynamic selectedCheatlist = List<dynamic>.from(cheatlistData["data"])
-          .where((dynamic listItem) => listItem["itemName"] == selectedSubject)
+          .where((dynamic listItem) =>
+              listItem["itemName"] ==
+              selectedSubject.toString().split(RegExp(r'\s\([0-9]{1,}\)'))[0])
           .toList()[0];
       selectedTitles = (List<String>.from(selectedCheatlist["entries"]
           .map((dynamic entry) => entry["title"])).toList());
@@ -205,9 +222,11 @@ class MyHomePageState extends State<MyHomePage> {
 
   setSubject(String mySubject) {
     print("setSubject mySubject = $mySubject");
-    selectedSubject = mySubject;
+    selectedSubject = mySubject; //.split(RegExp(r'\s[0-9]{1,}'))[0];
     dynamic selectedCheatlist = List<dynamic>.from(cheatlistData["data"])
-        .where((dynamic listItem) => listItem["itemName"] == selectedSubject)
+        .where((dynamic listItem) =>
+            listItem["itemName"] ==
+            selectedSubject.split(RegExp(r'\s\([0-9]{1,}\)'))[0])
         .toList()[0];
     autoSubjectController.clear();
     setState(() {
@@ -294,8 +313,8 @@ class MyHomePageState extends State<MyHomePage> {
         String myProgress = isAll == true
             ? "Search all subjects, loading ${filteredAllTitles.length} titles..."
             : (filteredSelectedTitles.length == selectedTitles.length
-                ? "Loading '$selectedSubject' (${filteredSelectedTitles.length} titles) ..."
-                : "Search '$selectedSubject', loading ${filteredSelectedTitles.length} titles...");
+                ? "Loading '${selectedSubject.split(RegExp(r'\s\([0-9]{1,}\)'))[0]}' (${filteredSelectedTitles.length} titles) ..."
+                : "Search '${selectedSubject.split(RegExp(r'\s\([0-9]{1,}\)'))[0]}', loading ${filteredSelectedTitles.length} titles...");
         showProgress(context, myProgress);
         Future.delayed(Duration(seconds: 1), () {
           seeCheatlists(context, isAll);
@@ -305,8 +324,12 @@ class MyHomePageState extends State<MyHomePage> {
   }
 
   seeCheatlists(context, bool isAll) async {
+    print("seeCheatlists called isAll = $isAll");
     bool isFiltered = false;
     List<String> mySelectedTitles = [];
+    List<dynamic> entries = [];
+    List<dynamic> cheatList = [];
+    List<dynamic> allCheatlist = [];
     if (isAll == true) {
       isFiltered = true;
       mySelectedTitles = filteredAllTitles;
@@ -314,17 +337,16 @@ class MyHomePageState extends State<MyHomePage> {
         showPopup(context, "Please filter selection to 100 or less titles");
         return;
       }
+      allCheatlist = List<dynamic>.from(cheatlistData["data"]);
     } else {
+      allCheatlist = List<dynamic>.from(cheatlistData["data"])
+          .where((dynamic listItem) =>
+              listItem["itemName"] ==
+              selectedSubject.split(RegExp(r'\s\([0-9]{1,}\)'))[0])
+          .toList();
       mySelectedTitles = filteredSelectedTitles;
     }
-    //double screenHeight = MediaQuery.of(context).size.height;
     print("seeCheatlists called");
-    //List<dynamic> cheatList = (List<dynamic>.from(cheatlistData["data"]).where(
-    //        (dynamic listItem) => listItem["itemName"] == selectedSubject))
-    //    .toList();
-    List<dynamic> entries = [];
-    List<dynamic> cheatList = [];
-    List<dynamic> allCheatlist = List<dynamic>.from(cheatlistData["data"]);
     for (int d = 0; d < allCheatlist.length; d++) {
       entries = List<dynamic>.from(allCheatlist[d]["entries"])
           .where((dynamic entry) =>
@@ -878,12 +900,12 @@ class MyHomePageState extends State<MyHomePage> {
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height,
             decoration: BoxDecoration(
-              color: Color.fromARGB(255, 220, 48, 194),
+              color: Color.fromARGB(255, 136, 163, 205),
               image: DecorationImage(
                   image: AssetImage(
                       'assets/images/main_background.png'), // Replace with your image path
-                  fit: BoxFit.cover,
-                  opacity: 0.10 // Adjust the BoxFit as needed
+                  fit: BoxFit.fitHeight,
+                  opacity: 0.50 // Adjust the BoxFit as needed
                   ),
             ),
             child: Column(
@@ -896,7 +918,7 @@ class MyHomePageState extends State<MyHomePage> {
                       SizedBox(height: 25),
                       Container(
                         decoration: BoxDecoration(
-                            color: Colors.white,
+                            color: Color.fromARGB(100, 255, 255, 255),
                             borderRadius: BorderRadius.all(Radius.circular(10)),
                             border: Border.all(
                                 color: const Color.fromARGB(255, 79, 66, 66),
@@ -909,7 +931,7 @@ class MyHomePageState extends State<MyHomePage> {
                                       MediaQuery.of(context).size.width * 0.90,
                                   decoration: BoxDecoration(
                                       color:
-                                          Color.fromARGB(255, 241, 224, 238)),
+                                          Color.fromARGB(100, 241, 224, 238)),
                                   child: Center(
                                       child: Text(
                                           'Search subject: (${filteredSelectedTitles.length} titles)',
@@ -922,19 +944,30 @@ class MyHomePageState extends State<MyHomePage> {
                                         0.90,
                                     decoration: BoxDecoration(
                                         borderRadius: BorderRadius.circular(10),
-                                        color: Colors.purple.shade100),
+                                        color:
+                                            Color.fromARGB(220, 225, 190, 231)),
                                     child: DropdownButtonHideUnderline(
                                       child: DropdownButton<String>(
+                                        key: _dropdownKey,
                                         alignment: Alignment.center,
-                                        dropdownColor: Colors.white,
+                                        dropdownColor: Color.fromARGB(
+                                            (_isDropdownOpen == true
+                                                ? 255
+                                                : 255),
+                                            255,
+                                            255,
+                                            255),
                                         value: selectedSubject,
                                         onChanged: (newValue) {
+                                          if (_dropdownKey.currentContext !=
+                                              null) {
+                                            _isDropdownOpen = !_isDropdownOpen;
+                                          }
                                           setSubject(newValue.toString());
                                           //appState.selectedTheme = newValue!;
                                           //});
                                         },
-                                        items: MyHomePage()
-                                            .dropdownSubjects
+                                        items: dropdownSubjects
                                             .map<DropdownMenuItem<String>>(
                                                 (String value) {
                                           return DropdownMenuItem<String>(
@@ -978,7 +1011,7 @@ class MyHomePageState extends State<MyHomePage> {
                                           }),
                                           decoration: InputDecoration(
                                             hintText:
-                                                " Search '$selectedSubject'",
+                                                " Search '${selectedSubject.toString().split(RegExp(r'\s\([0-9]{1,}\)'))[0]}'",
                                             suffixIcon: autoSubjectController
                                                     .text.isNotEmpty
                                                 ? IconButton(
@@ -1046,8 +1079,8 @@ class MyHomePageState extends State<MyHomePage> {
                                       child: Text(
                                           (filteredSelectedTitles.length ==
                                                   selectedTitles.length
-                                              ? "SHOW '$selectedSubject' (${filteredSelectedTitles.length})"
-                                              : "Show '$selectedSubject' Titles (${filteredSelectedTitles.length})"),
+                                              ? "SHOW '${selectedSubject.toString().split(RegExp(r'\s\([0-9]{1,}\)'))[0]}' (${filteredSelectedTitles.length})"
+                                              : "Show '${selectedSubject.toString().split(RegExp(r'\s\([0-9]{1,}\)'))[0]}' Titles (${filteredSelectedTitles.length})"),
                                           style: TextStyle(
                                               height: 0.90,
                                               color: Colors.green,
@@ -1060,7 +1093,7 @@ class MyHomePageState extends State<MyHomePage> {
                       ),
                       Container(
                           decoration: BoxDecoration(
-                              color: Color.fromARGB(100, 255, 255, 255),
+                              color: Color.fromARGB(220, 255, 255, 255),
                               borderRadius:
                                   BorderRadius.all(Radius.circular(50))),
                           child: Padding(
@@ -1071,7 +1104,7 @@ class MyHomePageState extends State<MyHomePage> {
                           )),
                       Container(
                         decoration: BoxDecoration(
-                            color: Colors.white,
+                            color: Color.fromARGB(100, 255, 255, 255),
                             borderRadius: BorderRadius.all(Radius.circular(10)),
                             border: Border.all(
                                 color: const Color.fromARGB(255, 79, 66, 66),
@@ -1212,11 +1245,8 @@ class MyHomePageState extends State<MyHomePage> {
                                       'https://play.google.com/store/apps/dev?id=5263177578338103821');
                                 },
                                 style: ElevatedButton.styleFrom(
-                                  backgroundColor: const Color.fromARGB(
-                                      255,
-                                      136,
-                                      17,
-                                      110), // Change the button's background color
+                                  backgroundColor:
+                                      const Color.fromARGB(255, 46, 107, 205),
                                   foregroundColor:
                                       Colors.white, // Change the text color
                                 ),
@@ -1250,11 +1280,8 @@ class MyHomePageState extends State<MyHomePage> {
                                         'https://apps.apple.com/us/developer/keith-harryman/id1693739510');
                                   },
                                   style: ElevatedButton.styleFrom(
-                                    backgroundColor: Color.fromARGB(
-                                        255,
-                                        136,
-                                        17,
-                                        110), // Change the button's background color
+                                    backgroundColor:
+                                        Color.fromARGB(255, 46, 107, 205),
                                     foregroundColor:
                                         Colors.white, // Change the text color
                                   ),

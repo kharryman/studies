@@ -1,7 +1,8 @@
 import './data/basic.dart';
 import './data/behavioral_neuroscience.dart';
+import './data/behavioral_psychology.dart';
 import './data/clinical_psychology.dart';
-import './data/cognitive_psychology.dart';
+import 'data/cognitive_psychology.dart';
 import './data/community_psychology.dart';
 import './data/comparitive_psychology.dart';
 import './data/consumer_psychology.dart';
@@ -28,6 +29,7 @@ final dynamic cheatlistData = {
   "data": [
     basic,
     behavioralNeuroscience,
+    behavioralPsychology,
     clinicalPsychology,
     cognitivePsychology,
     communityPsychology,
