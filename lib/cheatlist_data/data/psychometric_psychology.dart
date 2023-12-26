@@ -114,6 +114,48 @@ final dynamic psychometricPsychology = {
           ]
         }
       ]
-    }
+    },
+    {
+      "title": "Joy Paul Guilford",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• United States psychologist, best remembered for his psychometric study of human intelligence, including the distinction between convergent and divergent production\n\nConvergent thinking generally means the ability to give the \"correct\" answer to standard questions that do not require significant creativity, for instance in most tasks in school and on standardized multiple-choice tests for intelligence.\n\nDivergent thinking = creativity = thinking \"outside the box\""
+        }
+      ],
+      "image": "JOY_PAUL_GUILFORD"
+    },
+    {
+      "title": "Intelligence",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• \n\nSpearman \"g\" factor, factor analysis, spatial numeric reasoning,"
+        },
+        {
+          "value":
+              "• Thurstone - psychometrics, 7 clusters of mental abilities\n\nGardner -  multiple abilities in different forms, savant syndrome, , 8 intelligences\n\nSternberg - 3 intelligences, analytical, creative, practical\n\ndivergent thinking, emotional intelligence, eugenics,"
+        },
+        {"value": "• Alfred Binet - mental age test (IQ)"}
+      ],
+      "youtube": "9xTz3QjcloI"
+    },
+    {
+      "title": "Testing Reliability",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Test-retest reliability, internal consistency, split-half reliability"
+        },
+        {
+          "value":
+              "• Cronbach's alpha - measures reliability (.70 or higher)\n\nValidity, face valitidy (content), Predictive validity, construct validity\n\nStandardized\n\nsee Quizlet cards for definition of terms"
+        }
+      ],
+      "youtube": "erRnFk0s9h8"
+    },
   ]
 };

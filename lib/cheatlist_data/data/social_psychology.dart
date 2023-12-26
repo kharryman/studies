@@ -713,6 +713,59 @@ final dynamic socialPsychology = {
               "• have lower self esteem, academic achievement, & social competence"
         }
       ]
-    }
+    },
+    {
+      "title": "SOCIAL PSYCHOLOGY - Cognition",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• how we process information about others\n\nAttribution theory - explanations generated for others behavior\n - dispositional (internal) - explain behavior inside person (personality, intelligence, maturity)\n - situational (external) - explain behavior outside (luck, interference from others, social etiquette)\n\nactor-observer difference - observers attribute others' behavior to dispositions but own behavior to situations. Actor more aware than others of how his behavior changes from 1 situation to another\n\ncognitive dissonance theory - behave inconsistent with attitudes = dissonance (unpleasant tension) must explain behavior due to situation"
+        }
+      ]
+    },
+    {
+      "title": "Informational Social Influence Theory",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• 4:35 Foot in the Door\n5:30 Stanford Prison Experiment\n8:00 Festinger's Theory of Cognitive Dissonance - when our thoughts differ from others we feel discomfort we want to resolve"
+        },
+        {
+          "value":
+              "• Informational Social Influence Theory - When we are not sure what to do we copy other people, especially in crisis or if the other person is an expert"
+        }
+      ],
+      "youtube": "h6HLDV0T5Q8"
+    },
+    {
+      "title": "SOCIAL PSYCHOLOGY - Social Influence",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• direct/indirect pressures exerted by others to change one's behavior\n\nfoot-in-the-door technique - get compliance with small request first\n\ndoor-in-the-face technique - make request so big it's turned down, then on to smaller request\n\nlowballing - get commitment then increase effort/cost required to fulfill"
+        },
+        {
+          "value":
+              "• conformity - change behavior to follow group norms\n- Solomon Asch researcher used confederates to influence study results"
+        },
+        {
+          "value":
+              "• - Stanley Milgram researcher people susceptible to demands of authority"
+        }
+      ]
+    },
+    {
+      "title": "SOCIAL PSYCHOLOGY - Aggression & Altruism",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• frustration-aggression hypothesis aggression is always product of frustration and frustration leads to aggression (wrong, sometimes frustration= cry)\n\nmore testosterone = more aggression\n\naggressive cues - guns, knives, black clothing = higher levels of aggression among provoked people = weapons effect\n\naltruism\n\nKitty Genovese - raped and murdered 1964 in front of 38 witnesses who did not help (bystander effect)\n\nsocial-exchange theory = maximize rewards minimize costs (minimax principle)\n\nEncourage helping behavior: social responsibility norm help people who need it & reciprocity norm help people who help us. kin selection hypothesis helping family leads to our genes passed on"
+        }
+      ]
+    },
   ]
 };

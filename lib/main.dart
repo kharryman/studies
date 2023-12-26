@@ -399,7 +399,7 @@ class MyHomePageState extends State<MyHomePage> {
 
           shouldDisplayYoutube = false;
           if (entry["youtube"] != null) {
-            //shouldDisplayYoutube = true;
+            shouldDisplayYoutube = true;
           }
 
           List<Widget> moreCols = [
@@ -440,13 +440,16 @@ class MyHomePageState extends State<MyHomePage> {
                 )),
             Visibility(
                 visible: (entry["youtube"] != null),
-                child: SingleChildScrollView(
-                  scrollDirection: Axis.horizontal,
+                child: Center(
                   child: shouldDisplayYoutube
                       // ignore: dead_code
                       ? SizedBox(
-                          width: MediaQuery.of(context).size.width,
-                          height: 300,
+                          width: MediaQuery.of(context).size.width * 0.90,
+                          height: ((MediaQuery.of(context).size.width *
+                                      0.90 *
+                                      9.0) /
+                                  16.0)
+                              .floorToDouble(),
                           child: YouTubePlayerScreen(
                             videoId: entry["youtube"],
                           ),

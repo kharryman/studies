@@ -621,6 +621,21 @@ final dynamic personalityPsychology = {
         },
         {"value": "• has overcome self-concern"}
       ]
-    }
+    },
+    {
+      "title": "PERSONALITY - Individual Difference",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• \n\nMeasure ways people differ\nTraits - patterns of behavior\n\nAlport (boy on train) to Freud\n\nDefine personality - stable/lasting behavior patterns/motivations. "
+        },
+        {
+          "value":
+              "• Eyesneck - stable/unstable, introvert/extrovert\nBig 5 Traits OCEAN\n1. openness - questioning, independent, curious\n2. consciousness - dependable, self control\n3. extraversion - outgoing, socially adept\n4. agreeableness - conforming, likeable \n5. neuroticism - excitability, anxiousness"
+        }
+      ],
+      "youtube": "oWpRKJPCI7M"
+    },
   ]
 };

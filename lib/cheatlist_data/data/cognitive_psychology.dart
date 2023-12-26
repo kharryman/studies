@@ -1898,6 +1898,187 @@ final dynamic cognitivePsychology = {
           ]
         }
       ]
-    }
+    },
+    {
+      "title": "Memory",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Sensory fleeting awareness of what senses detect\n\nshort term (working) keep information long enough to solve problems\n\nlong term unlimited storage"
+        }
+      ],
+      "image": "MEMORY"
+    },
+    {
+      "title": "Sleeping",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• \n\nSleeping Disorders. What happens when you sleep.\n\nMike Birbiglia talks about his sleepwalking disorder. Funnny!"
+        }
+      ],
+      "youtube": "rMHus-0wFSo"
+    },
+    {
+      "title": "Dream Theories",
+      "type": "NORMAL",
+      "data": [],
+      "image": "DREAM_THEORIES"
+    },
+    {
+      "title": "Dream Theories",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• Freud"},
+        {"value": "• Activation synthesis theory"},
+        {"value": "• Information processing"},
+        {"value": "• Physiological Functions"}
+      ]
+    },
+    {
+      "title": "Perception",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Gestalt (German for \"a whole\" or \"form\") Psychologists were among the first to study how the brain makes things from fragments of sensations. "
+        },
+        {
+          "value":
+              "• Depth perception-\nboth eyes work together to gather Binocular cues, which use the space between the eyes (retinal disparity) and how much the eyes turn inwards, towards the nose (convergence) to roughly estimate distance. "
+        },
+        {"value": "• Monocular cues=one eye. "},
+        {"value": "• Linear perspective=parallel lines appear to converge. "},
+        {
+          "value":
+              "• Motion parallax-refers to apparent movement of stable objects as we move. "
+        },
+        {
+          "value":
+              "• Perceptual sets: predispositions to percieve one thing and not another will affect the way reality is viewed"
+        }
+      ]
+    },
+    {
+      "title": "Sensation & Perception",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Sensation - Bottom up (vision, hearing, smell) receive and relay outside information to the brain\n\nPerception - Top Down brain interprets & organizes that information\n\n"
+        }
+      ],
+      "youtube": "unWnZvXJH2o"
+    },
+    {
+      "title": "Motion parallax",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Apparent movement of stable objects as we move. Drive down the road and close objects appear to be moving backward and the nearer they are the faster they move. Far away objects move with you but more slowly as they get farther away.\n\nYoutube video for more about Motion parallax"
+        }
+      ]
+    },
+    {
+      "title": "Jean Piaget",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Cognitive Development\n\nSensorimotor stage (0-2) can't differentiate self from environment\n\npreoperational (2) stable world, language, symbols, fantasy/reality, object permanence, no logical reasoning, lack conservation, egocentric\n\nconcrete op. (7-11) logic rules, concrete, cause/effect, role taking\n\nformal op. (12-) logic of science, abstract thinking, metaphors\n\nassimilation = interpret sights based on current understanding\naccommodation = changed understanding \nequilibrium = balance\ndisequilibrium = changes in child's understanding of world"
+        }
+      ]
+    },
+    {
+      "title": "Jean Piaget",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• "}
+      ],
+      "youtube": "TRF27F2bn-A"
+    },
+    {
+      "title": "Piaget's Schema, Assimilation, Equilibrium",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• \n\nSchema = building block of knowledge\n\nAssimilation = using an existing schema to deal with a new object or situation\n\nEquilibrium = child's schemas can deal with most new information through assimilation\n\nAccommodation = existing schema (knowledge) does not work, and needs to be changed to deal with a new object or situation"
+        }
+      ],
+      "youtube": "3-A9SgbAK5I"
+    },
+    {
+      "title": "How your ear works",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Ear Drum\nOssicles (Hammer/Malleus, Anvil, Stirrup)\nCochlea (hair cells on basilar membrane) receptors for hearing\n\n"
+        }
+      ],
+      "youtube": "HMXoHKwWmU8"
+    },
+    {
+      "title": "William James",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Conscience and behavior helped people and animals adjust to the environment\nFunctionalist\nPrinciples of Physiological Psychology (1st Psychology text book 1890)"
+        }
+      ]
+    },
+    {
+      "title": "Eye",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• two photoreceptors in retina, rods & cones - change physical light energy into neural messages (transduction)\n\nThe rods more numerous, (120 million), & more sensitive than cones. But they're not sensitive to color."
+        },
+        {
+          "value":
+              "• The 6 to 7 million cones provide eye's color sensitivity. They're more concentrated in the central yellow spot (macula). In the center of that region is the \"fovea centralis \", a 0.3 mm diameter rod-free area with very thin, densely packed cones."
+        }
+      ],
+      "image": "EYE"
+    },
+    {
+      "title": "Eye",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• iris = controls pupil size and amount of light \noptic nerve = eye signals to brain\nretina = light sensitive inner eye surface\nlens = between pupil and retina, focuses light"
+        }
+      ]
+    },
+    {
+      "title": "Sensation",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• Psychophisics-relating to sensation. "},
+        {
+          "value":
+              "• Absolute threshold = the intensity needed for stimulus to be detected 50% of the time it is presented\n\nJust noticeable difference (jnd) or the difference threshold = minimum stimulation required for detection. "
+        },
+        {
+          "value":
+              "• Weber's law = Difference is harder to detect in more intense stimuli. "
+        },
+        {
+          "value":
+              "• Sensory adaptation = prolonged exposure to an unchanging stimulus causes nerves to fire less and detection diminishes."
+        },
+        {
+          "value":
+              "• Sensation=related to transforming energy from outside stimulus into neural energy to be used for perception."
+        }
+      ]
+    },
   ]
 };

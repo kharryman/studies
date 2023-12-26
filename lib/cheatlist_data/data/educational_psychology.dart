@@ -1971,6 +1971,32 @@ final dynamic educationalPsychology = {
               "• *The \"human\" side of issues, such as an individual's opinions, emotions, & beliefs.\n\n*Also assist with identifying intangible factors, like social norms, SES, gender roles, & religion.\n\n*When it's used in addition to quantitative methods, this provides us a better understanding of the complex reality of given situations as well as the meaning of the quantitative data."
         }
       ]
-    }
+    },
+    {
+      "title": "The Three Friends of Stupidity",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• Ignorance · Fear · Habit"},
+        {
+          "value":
+              "• From Part Four of “The Power of Stupidity” by Giancarlo Livraghi 2002"
+        }
+      ]
+    },
+    {
+      "title": "Albert Einstein's Quote",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• Albert Einstein"},
+        {
+          "value":
+              "• Two things are infinite: the universe and human stupidity; and I'm not sure about the former quote in Gestalt Therapy Verbatim by Frederick S. Perls."
+        },
+        {
+          "value":
+              "• See the Spin-Off Cheat Sheet\nhttp://www.cheatography.com/jorgejuan007/cheat-sheets/quotes-about-stupidity/"
+        }
+      ]
+    },
   ]
 };

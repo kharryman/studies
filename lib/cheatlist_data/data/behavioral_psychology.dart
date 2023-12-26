@@ -3,14 +3,15 @@ final dynamic behavioralPsychology = {
   "imageFolder": "BEHAVIORAL_PSYCHOLOGY",
   "entries": [
     {
-       "title": "Definition",
-       "type": "NORMAL",
-       "data": [
-          {
-            "value": "Behavioral psychology, or behaviorism, is a theory suggesting that environment shapes human behavior. In a most basic sense, behavioral psychology is the study and analysis of observable behavior. This field of psychology influenced thought heavily throughout the middle of the 20th century."
-          }
-       ]
-    },    
+      "title": "Definition",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "Behavioral psychology, or behaviorism, is a theory suggesting that environment shapes human behavior. In a most basic sense, behavioral psychology is the study and analysis of observable behavior. This field of psychology influenced thought heavily throughout the middle of the 20th century."
+        }
+      ]
+    },
     {
       "title": "The Science of Human Behaviour",
       "type": "NORMAL",
@@ -188,6 +189,28 @@ final dynamic behavioralPsychology = {
         }
       ],
       "image": "HELPING_BEHAVIORS"
+    },
+    {
+      "title": "B.F. Skinner",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• \n\nBehaviorism, -1960's\nbehavior of organisms\n\nBlank Slate = molded by environment..\n\nPigeon operant conditioning, reward system"
+        }
+      ],
+      "youtube": "T-d6jypCsUw"
+    },
+    {
+      "title": "THERAPY - Learning/Behavioral",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• behavior modification"},
+        {
+          "value":
+              "• Use classical & operant conditioning to change problem behaviors directly. Believe many were conditioned to begin with so can be \"un\" conditioned.\n\nCounterconditioning conditioning a new response incompatible with old\n\nsystematic desensitization relaxation replaces anxiety systematically\n\nflooding go straight into the fearful situation. CR is extinguished\n\naversive conditioning unpleasant response associated (alcohol + drug creating nausea UR & CR)\n\ntoken economy give token (poker chip/gold star) when desired behavior performed. tokens cashed in for tangible rewards"
+        }
+      ]
     },
   ]
 };

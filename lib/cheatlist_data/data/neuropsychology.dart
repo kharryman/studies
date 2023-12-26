@@ -1086,6 +1086,43 @@ final dynamic neuropsychology = {
               "• The Cerebrum- with higher brain function such as thought and action.\nFrontal Lobe- associated with reasoning, planning, parts of speech, movement, emotions, and problem solving\nParietal Lobe- associated with movement, orientation, recognition, perception of stimuli. Occipital Lobe- associated with visual processing\nTemporal Lobe- associated with perception and recognition of auditory stimuli, memory, and speech"
         }
       ]
-    }
+    },
+    {
+      "title": "Structure of Neuron",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• Retrieved from: https://byjus.com/biology/neurons/"}
+      ],
+      "image": "STRUCTURE_OF_NEURON"
+    },
+    {
+      "title": "Brain Organization",
+      "type": "NORMAL",
+      "data": [],
+      "image": "BRAIN_ORGANIZATION"
+    },
+    {
+      "title": "Brain Organization",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Cerebral cortex (outer cover) = motor, cognitive, sensory processes\nLeft/Right Hemispheres\nFrontal Lobes = coordinating movement in higher level thinking (planning & predicting consequences of behaviors)"
+        },
+        {
+          "value":
+              "• - Wernicke's area = language comprehension\n - Broca's area = speech production\n\nParietal lobes - top of head, behind frontal lobes = touch, hands/feet\n\nTemporal lobes - above parietal, sides of ears = hearing\n\nOccipital lobes - base of skull in back = vision (ocular)"
+        }
+      ],
+      "image": "BRAIN_ORGANIZATION2"
+    },
+    {
+      "title": "Left & Right Brain",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• Very interesting!\n\n"}
+      ],
+      "youtube": "82tlVcq6E7A"
+    },
   ]
 };
