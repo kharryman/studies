@@ -1,0 +1,3 @@
+NORMAL:
+#cheat_sheet_output_table > tbody > tr:nth-child(1) > td > div
+  1) IF # COLUMNS IS ONE or number of td/th > div is one of tr.

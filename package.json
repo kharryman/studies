@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@google-cloud/translate": "^8.0.2",
+    "axios": "^1.6.2",
+    "puppeteer": "^21.5.2",
+    "puppeteer-core": "^21.5.2"
+  }
+}

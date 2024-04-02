@@ -11,10 +11,10 @@ CALL COPY /Y .\env_vars\%new_app%_data\info.js .\lib\cheatlist_data\info.js
 CALL ECHO "COPYING TO \assets\images..."
 CALL rmdir /s /q .\assets\images
 CALL xcopy /Y /s /q .\env_vars\%new_app%_data\images .\assets\images
-CALL ECHO "COPYING .\env_vars\%new_app%_data\%new_app%_pubspec.yaml TO .\pubspec.yaml..."
-CALL COPY /Y .\env_vars\%new_app%_data\%new_app%_pubspec.yaml .\pubspec.yaml
-CALL ECHO "COPYING .\env_vars\%new_app%_data\%new_app%_AndroidManifest.xml TO .\android\app\src\main.AndroidManifest.xml..."
-CALL COPY /Y .\env_vars\%new_app%_data\%new_app%__AndroidManifest.xml .\android\app\src\main.AndroidManifest.xml
+CALL ECHO "COPYING .\env_vars\%new_app%_data\pubspec.yaml TO .\pubspec.yaml..."
+CALL COPY /Y .\env_vars\%new_app%_data\pubspec.yaml .\pubspec.yaml
+CALL ECHO "COPYING .\env_vars\%new_app%_data\AndroidManifest.xml TO .\android\app\src\main.AndroidManifest.xml..."
+CALL COPY /Y .\env_vars\%new_app%_data\AndroidManifest.xml .\android\app\src\main.AndroidManifest.xml
 
 CALL node rename_package_files_android.js %old_app% %new_app%
 
