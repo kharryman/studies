@@ -637,5 +637,205 @@ final dynamic personalityPsychology = {
       ],
       "youtube": "oWpRKJPCI7M"
     },
+    {
+      "title": "Personality Theories",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• Social Cognitive\n\nIndividual Difference Trait"},
+        {"value": "• Psychoanalytic\n\nHumanistic\n\n"}
+      ],
+      "youtube": "sUrV6oZ3zsk"
+    },
+    {
+      "title": "PERSONALITY - Social Cognitive",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Cognition.  Proposed by \"Bobo\" Bandura\n\nInteraction between traits & social contexts\nWatch & imitate others & think about how that affects us.  \nWe are creators & products of the situations we surround ourselves with."
+        },
+        {
+          "value":
+              "• Personal control = how much control we have over our environment.\n\nReciprocal determinism - how people think and behave in their environment interacts to influence consistency of behavior"
+        }
+      ],
+      "image": "PERSONALITY___SOCIAL_COGNITIVE"
+    },
+    {
+      "title": "PERSONALITY - Humanistic",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• People basically good\n\nCarl Rogers \"Self Theory\" - person centered\ntrue self - talents, thoughts, desires, feelings\nself concept - what we think we are like\nideal self - what we think we would like to be\n\nself actualization - accept who you are\nconditions of worth - hinder self actualization\n\nSelf Esteem literature\n\nMaslow rejected standard tests and measured self concept through therapy and questionaires."
+        }
+      ],
+      "image": "PERSONALITY___HUMANISTIC"
+    },
+    {
+      "title": "PERSONALITY - Psychoanalytic Psychodynamic",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Jung, Adler, Horney, Erikson, \nRorschach-inkblot\nFreud (sex, aggression) dream analysis\nFreud and Jung - free association\n\nThematic Apperception Test: pictures you narrate\n\nBehavior motivated by unconscious needs\nPeople are basically bad"
+        }
+      ]
+    },
+    {
+      "title": "Big 5 Personalities",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• Neuroticism"},
+        {"value": "• Conscientiousness"},
+        {"value": "• Extraversion"},
+        {"value": "• Agreeableness"},
+        {"value": "• Openness"}
+      ]
+    },
+    {
+      "title": "Self",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "Altruism"},
+            {"value": "Selfless actions done for the sake of someone else"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Archetypes"},
+            {"value": "Thought forms with a universal meaning"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Compensation"},
+            {
+              "value":
+                  "Trying to overcome inferiorities by developing one's abilities"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Determinism"},
+            {"value": "Behavior is fully determined by environment"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Incongruence"},
+            {"value": "Inconsistency between personality and disposition"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Reciprocal Determinism"},
+            {
+              "value":
+                  "Internal mental events, external environment, and overt behaviors affect one another"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Self-Actualizing Persons"},
+            {
+              "value":
+                  "People with exceptionally healthy personalities with constant personal growth"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Self-Concept"},
+            {
+              "value":
+                  "Belief's about one's own nature, unique qualities, and typical behavior"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Self-Efficacy"},
+            {"value": "One's beliefs about oneself and one's capabilities"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Striving for Superiority"},
+            {
+              "value":
+                  "Universal drive to adapt, improve oneself, and master life's challenges"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Superiority"},
+            {"value": "Being equal to or above others"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ABC model of attitudes",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "Affective Component"},
+            {"value": "how we feel towards an object (ABC Model)"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Behavioral Component"},
+            {"value": "how we behave towards and object (ABC Model)"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Cognitive Component"},
+            {"value": "what we believe about an object (ABC Model)"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Three Types of Lovers",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "Secure Attachment Styles"},
+            {
+              "value":
+                  "find it relatively easy to become close to others and are comfortable depending on lovers and being depended on."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Avoidant Attachment Styles"},
+            {
+              "value":
+                  "somewhat uncomfortable being close to others and have difficulty trusting others and depending on them."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Anxious-Ambivalent Attachment Styles"},
+            {
+              "value":
+                  "worry that their lovers are less interested in closeness that they are."
+            }
+          ]
+        }
+      ]
+    },
   ]
 };

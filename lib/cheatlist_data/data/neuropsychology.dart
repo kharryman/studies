@@ -1124,5 +1124,358 @@ final dynamic neuropsychology = {
       ],
       "youtube": "82tlVcq6E7A"
     },
+    {
+      "title": "Nervous System",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• Graded potential, action potential, refractory period\n\n"}
+      ],
+      "youtube": "OZG8M_ldA1M"
+    },
+    {
+      "title": "How your brain works",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• Priming, Fast brain, Slow brain\n\n"}
+      ],
+      "youtube": "JiTz2i4VHFw"
+    },
+    {
+      "title": "Neurons",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Sensory (Afferent = To cell) receive info from senses\n\nMotor (Efferent = Away from cell) from spine/brain to signal muscle contractions\n."
+        },
+        {
+          "value":
+              "• Inter (Association = connecting) Think, see, perceive\n\nNeurotransmitters\n\nElectrical & chemical process\nDendrites, axon, myelin sheath\nneuron rest = -70 mV\nGlia = \"neuronal glue\" hold neurons together, provide nutrients"
+        }
+      ],
+      "youtube": "x4PPZCLnVkA"
+    },
+    {
+      "title": "Neurotransmitters",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• "}
+      ],
+      "youtube": "W4N-7AlzK7s"
+    },
+    {
+      "title": "Gestalt",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• theory of mind of the Berlin School of experimental psychology."
+        },
+        {
+          "value":
+              "• Gestalt psychology tries to understand the laws of our ability to acquire and maintain meaningful perceptions in an apparently chaotic world.\n\nRoots in theories by Hume, Goethe, Kant."
+        },
+        {
+          "value":
+              "• Max Wertheimer's unique contribution was to insist that the \"gestalt\" is perceptually primary, defining the parts it was composed from, rather than being a secondary quality that emerges from those parts."
+        }
+      ],
+      "image": "GESTALT"
+    },
+    {
+      "title": "Neuro",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "Neurotransmitters"},
+            {
+              "value":
+                  "are chemicals of various kinds that travel across the synaptic gap to the next neuron, allowing the cells to talk"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Neuroscience"},
+            {"value": "studies the relationship between mental/brain activity"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Behavioral Neuroscience"},
+            {
+              "value":
+                  "approach to psyc links psychological processes activities in nervous systems & other bodily processes"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Synapse"},
+            {
+              "value":
+                  "the junction or region between the axon of one neuron and the dendrites or cell body of another"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Three Ways Neurotransmitters Cleared from a Synapse"},
+            {"value": "1) Via Auto Receptors"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "2) Reuptake"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "3) Enzyme Deactivation"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Action Potential"},
+            {
+              "value":
+                  "electrical signal that travels the length of an axon to a synapse"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Resting Potential"},
+            {
+              "value":
+                  "the diff. in electrical charge between the inside of a neuron's cell membrane"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Stimulus"},
+            {"value": "sensory input from the environment"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Reaction Time"},
+            {"value": "amt of time to response to a specifc stimulus"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Myelin"},
+            {
+              "value":
+                  "a type of fatty tissue, covers sections of the axons of some neurons, assisting in the rapid transmission of signals through the axon"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nervous System Subsystems",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "Autonomic Nervous System"},
+            {
+              "value":
+                  "Nerves connecting to heart, blood vessels, smooth muscles, and glandsd"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Central Nervous System"},
+            {"value": "Brain and spinal cord"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Parasympathetic Nervous System"},
+            {
+              "value":
+                  "Autonomic nervous system subset that conserves resources (rest and digest)"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Peripheral Nervous System"},
+            {"value": "Nerves that lie outside CNS"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Somatic Nervous System"},
+            {
+              "value":
+                  "Nerves that connect voluntary skeletal muscles to sensory receptors"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Sympathetic Nervous System"},
+            {
+              "value":
+                  "Autonomic nervous system subset that deals with emergency body resources (fight or flight)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nervous System Subsets Diagram",
+      "type": "NORMAL",
+      "data": [],
+      "image": "NERVOUS_SYSTEM_SUBSETS_DIAGRAM"
+    },
+    {
+      "title": "Glands",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "Adrenal"},
+            {"value": "Salt and carbs metabolism"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Gonads"},
+            {"value": "Sex hormones"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Pancreas"},
+            {"value": "Sugar metabolism (insulin)"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Pituitary"},
+            {"value": "Master gland; secretes growth hormones"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Thyroid"},
+            {"value": "Metabolic rate"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Problem Solving",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "Algorithm"},
+            {
+              "value":
+                  "Step-by-step procedure for trying all alternatives searching for a solution"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Decision Making"},
+            {"value": "Evaluating alternatives and making decisions"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Framing"},
+            {"value": "The way in which questions are worded"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Functional Fixedness"},
+            {"value": "Seeing an item as its most common use"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Heuristic"},
+            {
+              "value":
+                  "Guiding principle used in solving problems or making decisions (going right is always right)"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Incubation"},
+            {"value": "New solutions arising after taking a break from solving"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Insight"},
+            {
+              "value":
+                  "Suddenly discovering correct solution to a problem after struggling for a while"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Mental Set"},
+            {"value": "Using something again because its worked before"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Problem Solving"},
+            {
+              "value":
+                  "Efforts made to discover what must be done to achieve a goal"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Problem Space"},
+            {
+              "value":
+                  "Set of possible pathways to a solution considered by the problem solver"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Risky Decision Making"},
+            {"value": "Making uncertain choices"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Semantic Slanting"},
+            {
+              "value":
+                  "Choosing words to elicit an emotional response and gain a certain reaction or solution"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Theory of Bounded Rationality"},
+            {
+              "value":
+                  "Using simple decision making strategies which often result in irrational decisions (choosing C on a test when you're lost)"
+            }
+          ]
+        }
+      ]
+    },
   ]
 };

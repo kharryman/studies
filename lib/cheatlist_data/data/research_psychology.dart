@@ -13,6 +13,16 @@ final dynamic researchPsychology = {
       ]
     },
     {
+      "title": "Research Methods",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• independent variable = cause\nexperimental group = exposed to cause\ncontrol group = not exposed to cause\ndependent variable = effect (measures how subjects behave)\n\nblind study = subjects don't know if they get drug or placebo\ndouble-blind study = subjects & researchers don't know who gets drug/placebo\n\ncorrelation coefficient = describes strength of relationship"
+        }
+      ]
+    },
+    {
       "title": "PESTLE analysis",
       "type": "TABLE",
       "data": [
@@ -1729,6 +1739,966 @@ final dynamic researchPsychology = {
               "• Need to ensure the validity of questionnaire (i.e., the test items measure what  we had initially set out to measure)\nConstruct is too broad for comfort: need to operationalize\nSpecific operationalization of the idea that we want to pursue and not something else"
         }
       ]
-    }
+    },
+    {
+      "title": "Advantages of qualitative methods",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "*meaning & culturally appropriate"},
+            {
+              "value":
+                  "*unanticipated by research since questions vary based on answers"
+            },
+            {"value": "*descriptive & explanatory in answers"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hypotheses",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• *Are predictive statements about the outcome that's expected.\n*Must be clearly explicated.\n\nNull Hypothesis- Predicts that no relationship exists."
+        },
+        {
+          "value":
+              "• Alternative Hypothesis- Predict that groups assisted in different treatments will demonstrate a difference in performance.\n\nNull Hypothesis Sign test- If the null is rejected p<.05, the direction of the group means must be in the direction (if specified) you expected to gain support."
+        }
+      ]
+    },
+    {
+      "title": "Hypotheses/Theories",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• *Theories are broader compared to hypotheses. \n*Hypothesis= based on a specific observation\n*Theories= A general principle utilizing numerous tests."
+        }
+      ]
+    },
+    {
+      "title": "Conceptual & Operational Def.",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "Concept Def."},
+            {"value": "Operational Def."}
+          ]
+        },
+        {
+          "columns": [
+            {
+              "value":
+                  "*Describe the qualities of the variable that are independent of time & space."
+            },
+            {
+              "value":
+                  "*Description of observable characteristics that represents a variable."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "-Ex. Intelligence"},
+            {
+              "value":
+                  "-Ex. for Intelligence, we may use the score someone receives on a specific intelligence test."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "value":
+                  "-We must relate intelligence to variables\t that we are able to measure."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Experimental variables",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• *If the study includes independent/dependent variables, this is an experimental method."
+        }
+      ]
+    },
+    {
+      "title": "Static-Group (Non experimental) Variables",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• *Researchers choose their participants based on preexisting groups they are part of who demonstrate the identifying characteristics for the predictor variable.\n*Could be sex, race, education, occupation, diagnosis, political afflictions.\n*These variables are unable to be manipulated by researchers because we can't alter someone's political association or sex.\n-The term independent variable is utilized & implies that a causal relationship exists. So we refer to group membership as a predictor variable since manipulation hasn't occurred."
+        }
+      ]
+    },
+    {
+      "title": "Measured Variables",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• *Are not manipulated by experimenters & are not naturally occurring events."
+        },
+        {
+          "value":
+              "• *Variables are often labeled \"predictor\" & have a \"criterion\" but don't assume causality between the two."
+        },
+        {
+          "value":
+              "• *They aim to find the association between 2 continuous variables."
+        },
+        {
+          "value":
+              "• *Can't assume that poor attendance causes bad test scores or that bad test scores causes poor attendance."
+        },
+        {"value": "• *Minimal inference by researchers"}
+      ]
+    },
+    {
+      "title": "Multiple Correlation & Causation",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• *Correlations between 2 variables show the relationship/association between them but do not imply one is the cause of the other."
+        },
+        {
+          "value":
+              "• *Demonstrates 2+ independent variables & a dependent variable."
+        }
+      ]
+    },
+    {
+      "title": "Difference between quan & qual methods",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "*analytical objectives"},
+            {"value": "*types of questions asked"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "*differences in data collection instruments"},
+            {"value": "*data produced"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "*degree of flexibility of the study"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Two static-group variables",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• *Some studies include 2+ organismic-attribute-status variables that intend to predict a different continuous variable.\n*Ex. If researchers were interested in the relationship between living in the city since birth & problems in adolescence possible variables could be (a) drug use (b) criminal records before the age of 18"
+        }
+      ]
+    },
+    {
+      "title": "Theory in Practice",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• What is a theory?"},
+        {"value": "• Types of theories and examples"},
+        {"value": "• Role of theory"},
+        {"value": "• 9 criteria to assess theory quality"},
+        {"value": "• Ecological approach"},
+        {"value": "• individual key concepts"},
+        {"value": "• interpersonal key concepts"},
+        {"value": "• community key concepts"},
+        {"value": "• What is a self-report?"},
+        {"value": "• Consequences of inaccuracy"},
+        {"value": "• Assessing accuracy of self-report"},
+        {"value": "• Sensitivity"},
+        {"value": "• Specificity"},
+        {"value": "• What factors impact accuracy?"},
+        {"value": "• How can we optimise accuracy?"}
+      ]
+    },
+    {
+      "title": "Whorfian Hypothesis",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• a theory in linguistics: one's language determines one's conception of the world"
+        },
+        {
+          "value":
+              "• The strong version says that language determines thought, and that linguistic categories limit and determine cognitive categories, whereas the weak version says only that linguistic categories and usage influence thought and certain kinds of non-linguistic behavior.\n\n"
+        }
+      ],
+      "youtube": "g0gkcY1SB-0"
+    },
+    {
+      "title": "Functionalist Approach",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• 1890\nWilliam James - Father of modern Psychology\n\nPeople function like a machine (industrial revolution)\nBased on evolutionary thoughts (close to Darwin's \"origin of species\")\n\n"
+        }
+      ],
+      "youtube": "fBTHhnWQgHw"
+    },
+    {
+      "title": "It's all about FUNCTION",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• How mental experiences were adaptive & functional for people.  \nBelieved consciousness and behavior in general, helped people/animals adjust to environments.  Understand \"mind\" = understanding what the mind has accomplished"
+        },
+        {"value": "• William James"}
+      ]
+    },
+    {
+      "title": "Experimental Psychology",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• the branch of psychology concerned with the scientific investigation of basic psychological processes such as learning, memory, and cognition in humans and animals.\n- in a controlled setting in order to predict, explain, or influence behavior or other psychological phenomena\n- aims at establishing quantified relationships and explanatory theory through the analysis of responses under various controlled conditions"
+        }
+      ]
+    },
+    {
+      "title": "Research Process",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "define R problem>"},
+            {"value": "Review of literature >"},
+            {"value": "formulate H >"},
+            {"value": "Design R >"},
+            {"value": "collect data >"},
+            {"value": "analyse the data >"},
+            {"value": "hypothesis testing >"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "interpretation of data >"},
+            {"value": "preparing report >"},
+            {"value": "presenting results"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Types of Research",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {
+              "value":
+                  "Descriptive - survey and fact finding enquiries.Describe the current state of affairs. ex Ex-post facto R"
+            },
+            {
+              "value":
+                  "Analytical-analysis of already available information to make critical evaluation"
+            },
+            {
+              "value":
+                  "Action or Applied - aim is finding a solution for a problem at hand"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "value":
+                  "fundamental - concerned with generalisations and formulation of a theory."
+            },
+            {"value": "Quantitative - measurement of quantity or amount"},
+            {
+              "value":
+                  "Qualitative - aim is to discover underlying motives of human behavior."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "value":
+                  "Conceptual - related to some abstract idea or theory. used to develop new theories or reinterpret existing ones."
+            },
+            {
+              "value":
+                  "Empirical - relies on observation or experience alone. Data-based research. Alia experimental R."
+            },
+            {
+              "value":
+                  "Other - one time OR longitudinal; field setting OR laboratory R ; Exploratory R; Historical R."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hypothesis",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {
+              "value":
+                  "Hypothesis - a testable proposition; a tentative solution formed on a problem."
+            },
+            {
+              "value":
+                  "Types:Null Hypothesis (Ho) - indicating no relationship or no-effect or negationbetween variables. Alternate Hypothesis (Ha/ H1) or working hypothesis - indicating some relationship between variables."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sources of ROL",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• journals, books, review articles, abstract, internet, dissertations, professors, newspapers, etc."
+        }
+      ]
+    },
+    {
+      "title": "Sampling",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {
+              "value":
+                  "Population - population or universe being considered or of interest"
+            },
+            {
+              "value":
+                  "Probability sampling likelihood of inclusion of each element in the sample."
+            },
+            {
+              "value":
+                  "Non Probability Sampling- no way of assessing the likelihood of inclusion of each element in sample"
+            },
+            {"value": "Non Probability contd."},
+            {
+              "value":
+                  "mixed sampling - involve characteristics of prob and non prob sampling"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "value":
+                  "sample - subset of population, used as representative of population."
+            },
+            {
+              "value":
+                  "Simple Random sampling -equal chance of being included. Ex. fishbowl method, Tippet's table of Random nos."
+            },
+            {"value": "Purposive/ Judgemental sampling"},
+            {
+              "value":
+                  "Area Sampling - selecting a particular geographical location for sample collection"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Stratified Random sampling - Strata. Ex sex"},
+            {"value": "Snowball sampling"},
+            {
+              "value":
+                  "Cluster Sampling - selecting groups rather than individuals"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Systematic sampling -Tippet's Table."},
+            {"value": "Quota Sampling - strata"},
+            {
+              "value":
+                  "Multistage sampling - + cluster sampling (large sample unit breaking into then smaller units to study)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sampling Error",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {
+              "value":
+                  "the difference between parameter (measure from populationand statistic(measure from sample)"
+            },
+            {
+              "value":
+                  "Based on A)Variability in the population & B)Size of sample"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Higher the SE, poorer the statistical inference."}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Research Design",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {
+              "value":
+                  "conceptual structure within which a R is conducted, in Underbuilt for collection, measurement and analysis of data; a framework for R plan of action"
+            },
+            {
+              "value":
+                  "characteristics of R Design - Neutral, Reliable, Valid, Generalisable"
+            },
+            {"value": "Two Approaches to R Design: Qualitative & Quantitative"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Types of R Designs"},
+            {
+              "value":
+                  "Descriptive Research Design - explanation of situation/case in depth explanation of situation/case in depth; theoretical basis; presentsdata in an understandable manner ; no control/change in variables ; only observational.Do customers prefer product A, B or C ?"
+            },
+            {
+              "value":
+                  "Experimental R Design- manipulation of variable to observe changes in another variable; controlled and randomized. Include DV, IV, hypothesis, operational definition"
+            },
+            {
+              "value":
+                  "Correlational R Design - relationships between two/more variables ; non experimental ; no manipulation of variables ; gives a + or - or 0 correlation; result presented with numerical value called correlation coefficient"
+            },
+            {
+              "value":
+                  "Explanatory  R Design - explores when limited information is available; helps increase understanding of a topic; answers why, how; predicts future occurrences; cause and effect model ; improved understanding of previously unresolved problem."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "value":
+                  "Types : cross sectional- studying one particular section of society at a given point in time. ex. tracking social media use in Gen Z in Netherlands.Longitudinal - extended period of time on a group of people. ex. cyber bullying from 2022-2024Normative-comparison of result with an existing normCorrelational- find out relationship between variables. Ex video games and mental healthComparative- Comparison of two or more. Ex salary of emploees at teo different companies Classification- arrange data into categories. Ex classifying customers based on their buying behArchival- search for past records and get info. Ex tracking company sales over years"
+            },
+            {
+              "value":
+                  "Types:True experimentalpretest posttest design w/o control grouppretest posttest with control groupposttest with control group design , Quasi-experimental"
+            },
+            {
+              "value":
+                  "Types: Naturalistic observation  Survey Archival Research"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "value":
+                  "Between subjects design(separate groups)-Randomised groups design:  Two randomised groups design More than two randomized groups design"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "value":
+                  "Matched group design-all subjects are tested on a matching variable sn then formed into groupsFactorial design-values of two/more IV are studies in all possible combinations to find out independent and interactive effects on DVWithin subjects design (only one group of subjects)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Variables",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {
+              "value":
+                  "Attributes of objects, events, things, being, etc that can be measured. There are controlled, manipulated or observed by the experimenter."
+            },
+            {
+              "value":
+                  "IV-manipulated,measured and selected by experimental for purpose of observing changes in DV."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": " Directive & Non-directive hypothesis"},
+            {"value": "DV -experimenter makes prediction about this variable"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Measurement Scales",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {
+              "value":
+                  "Nominal scale - use of numbers to name objects.  Ordinal scale - rank order of objects"
+            },
+            {
+              "value":
+                  "Interval scale - includes charac of nominal & ordinal scales , numerical equals distance on a scale indicating equal distances in properties of objects measured. Ratio scale -includes properties of all other scales & an absolute zero point. Interval scale is most commonly used in psychology"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Data Collection sources",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {
+              "value":
+                  "Primary Data -observation method, interview method, Questionnaires, surveys"
+            },
+            {
+              "value":
+                  "secondary Data -Case Study, Government Records, Newspapers, Journals, Articles, Archives, Internet , Databases"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Evaluation of the Theory",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Highlights the most important positive and negative features of these theories."
+        }
+      ]
+    },
+    {
+      "title": "Authority",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• * Who is the author, publisher, or source?"},
+        {"value": "• * What are their credentials?"},
+        {"value": "• * Is the source trustworthy?"},
+        {"value": "• * Can I find out any more information?"},
+        {
+          "value":
+              "• * If a website, what does the URL tell me about the source?"
+        }
+      ]
+    },
+    {
+      "title": "Purpose",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• * What does the information do?"},
+        {
+          "value":
+              "• * Is the purpose clear and the point of view impartial or are there biases?"
+        },
+        {"value": "• * Is the information fact, opinion, or propaganda?"}
+      ]
+    },
+    {
+      "title": "Relevance",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• * Does it relate to my research or answer my question?"},
+        {"value": "• * Is it at an appropriate level?"},
+        {
+          "value":
+              "• * Have I looked at various sources to see if this one is relevant to me?"
+        },
+        {
+          "value":
+              "• * Am I comfortable citing this as a reputable source for my research?"
+        }
+      ]
+    },
+    {
+      "title": "Accuracy",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• * Where does the information come from?"},
+        {"value": "• * Is it supported by current evidence?"},
+        {
+          "value":
+              "• * Can I verify any of the information in another reliable source?"
+        },
+        {
+          "value":
+              "• * Does the tone or language seem balanced, unbiased, and free from errors?"
+        }
+      ]
+    },
+    {
+      "title": "Types of Studies",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• -Correlational\n -seeks to figure out if two or more variables are related and in what way.\n -Is smoking associated with Alzheimer's disease?\n\n-Descriptive\n -do not test specific relationships between variables, non-experimental\n -survey\n\n-Naturalistic\n -observes and records behavior in its natural setting while interfering as little as possible with the subjects or behavior\n\n-Quasi-Experiment\n -subjects are assigned to groups based on non-random criteria\n\n-Clinical\n -separate groups (experimental and control)\n -experimental receives treatment and control does not (placebo)"
+        }
+      ]
+    },
+    {
+      "title": "Central Tendency",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "Mean"},
+            {"value": "Average Score"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Median"},
+            {"value": "Value in the Middle"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Mode"},
+            {"value": "Occurs Most Frequently"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Skew Distributiion",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "Positive (+) - Graph: line goes up"},
+            {"value": "same mean, median, mode"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Negative (-) - Graph lines goes down"},
+            {"value": "different mean, median, mode"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Terms",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "Reliable"},
+            {
+              "value":
+                  "if an instrument can attain the same measurement repeatedly when measuring the same thing"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Validity"},
+            {
+              "value":
+                  "the degree to which an external even reflects a concept or idea"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "PNS: Peripheral Nervous System"},
+            {
+              "value":
+                  "1) Somatic Nervous System - comm. info. between voluntary muscles&CNS involved in coordinating beh."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "value":
+                  "2) Autonomic Nervous System - comm. info automatically to blood vessels, organs, and glands"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Ions"},
+            {"value": "charges particles"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Self-Selection"},
+            {
+              "value":
+                  "problem occurs when anything about a person determines inclusion in a group"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Representing Data"},
+            {"value": "1) Graphic Representation - picturing"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "2) Descriptive Stats - discussing"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Measures of Variability"},
+            {"value": "1) Range: largest value - smallest value = range"}
+          ]
+        },
+        {
+          "columns": [
+            {
+              "value":
+                  "2) Standard Deviation: how much an avg. the scores differ from the mean"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Variables"},
+            {"value": "Independent - being manipulated"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Dependent - measured"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Third Variable Problem"},
+            {
+              "value":
+                  "2 variables are correlated only bc each is casually related to a 3rd variable"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Groups"},
+            {"value": "Experimental - exposed to manipulation"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Control - not exposed"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Experimental Tools"},
+            {
+              "value":
+                  "1) Manipulation - changing a variable to determine its casual power"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "value":
+                  "2) Random Assignment - away of eliminating biases or uneven levels of third variables in the experimental and control groups"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Double Blind"},
+            {
+              "value":
+                  "neither observer nor participate knows the true nature of the study"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Demand Characteristics"},
+            {
+              "value":
+                  "can keep people from behaving naturally in an observational setting"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Before we measure something ..."},
+            {"value": "we must define it."}
+          ]
+        },
+        {
+          "columns": [
+            {
+              "value":
+                  "To the degree that an instrument can detect minute variation in magnitude that instrument has"
+            },
+            {"value": "power"}
+          ]
+        },
+        {
+          "title": "Ways to Represent Data",
+          "type": "TABLE",
+          "data": [
+            {
+              "columns": [
+                {"value": "Correlation"},
+                {"value": "Relationship between two variables"}
+              ]
+            },
+            {
+              "columns": [
+                {"value": "Correlation Coefficient"},
+                {
+                  "value":
+                      "Degree of relationship between two variables (-1 to 1)"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {"value": "Frequency Distribution"},
+                {"value": "Indicates how often an observation or number occurs"}
+              ]
+            },
+            {
+              "columns": [
+                {"value": "Histogram"},
+                {"value": "A bar graph"}
+              ]
+            },
+            {
+              "columns": [
+                {"value": "Mean"},
+                {"value": "The average of all numbers in a data set"}
+              ]
+            },
+            {
+              "columns": [
+                {"value": "Median"},
+                {
+                  "value":
+                      "The number that lies in the middle of a data set when ordered from least to greatest"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {"value": "Mode"},
+                {"value": "The number that appears most often in a set of data"}
+              ]
+            },
+            {
+              "columns": [
+                {"value": "Normal Curve"},
+                {
+                  "value":
+                      "Bell-shaped curve where the average score lies in the middle"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {"value": "Range"},
+                {"value": "Largest number- smallest number"}
+              ]
+            },
+            {
+              "columns": [
+                {"value": "Scatterplot"},
+                {
+                  "value":
+                      "Graph of points showing relationship between the x and y axis"
+                }
+              ]
+            },
+            {
+              "columns": [
+                {"value": "Standard Deviation"},
+                {"value": "Average distance from the mean in a data set"}
+              ]
+            },
+            {
+              "columns": [
+                {"value": "Statistical Significance"},
+                {
+                  "value":
+                      "Probability that data collected from an experiment are due to chance"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Research Methods",
+          "type": "TABLE",
+          "data": [
+            {
+              "columns": [
+                {"value": "LOCKE"},
+                {"value": "scientific = empirically tested"}
+              ]
+            },
+            {
+              "columns": [
+                {"value": "POPPER"},
+                {"value": "falsifiability = key criteria"}
+              ]
+            },
+            {
+              "columns": [
+                {"value": "KUHN"},
+                {"value": "paradigms"}
+              ]
+            }
+          ]
+        },
+      ]
+    },
   ]
 };

@@ -1998,5 +1998,387 @@ final dynamic educationalPsychology = {
         }
       ]
     },
+    {
+      "title": "Alfred Binet",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• First to make intelligence test which determined test takers \"mental\" age. This has changed into the IQ test we are familiar with today.\n\nA Method of Measuring the Development of Young Children"
+        },
+        {
+          "value":
+              "• Early 1900s\n\nmental age divided by chronological age X 100 = score"
+        }
+      ],
+      "image": "ALFRED_BINET"
+    },
+    {
+      "title": "Foretting Curve",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Video link about the forgetting curve.\n\nVideo link about how to learn efficiently."
+        }
+      ],
+      "image": "FORETTING_CURVE"
+    },
+    {
+      "title": "Associative Learning",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• \n\nSubject links together certain events, behavior, stimuli in process of conditioning.\n\nClassical Conditioning - Pavlovian, reflexive, elicited, pair 2 stimuli, CS + US, stimuli appear regardless of learner's behavior\n\nOperant Conditioning - learning an association between stimulus and response (Reinforcement = increase in behavior  Punishment=decreases behavior) BF Skinner\n\nObservational Learning - we can learn by watching others"
+        }
+      ],
+      "youtube": "qG2SwE_6uVM"
+    },
+    {
+      "title": "Heuristics/ Fallacies",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "Availability Heuristic"},
+            {"value": "Basing estimates on what one has seen"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Belief Bias"},
+            {"value": "Illogical conclusions to confirm previous beliefs"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Belief Perseverance"},
+            {"value": "Maintain a belief even after evidence contradicts it"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Conjunction Fallacy"},
+            {
+              "value":
+                  "Estimating that odds of two events happening together are greater than them happening by themselves"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Gambler's Fallacy Heuristic"},
+            {
+              "value":
+                  "Believing probability of something happening will increase if it hasn't happened in a whille"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Representativeness Heuristic"},
+            {"value": "Basing estimates on how similar it is to a prototype"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Laws of Human Stupidity",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "I"},
+            {
+              "value":
+                  "Always and inevitably everyone underestimates the number of stupid individuals in circulation."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "II"},
+            {
+              "value":
+                  "The probability that a certain person will be stupid is independent of any other characteristic of that person."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "III"},
+            {
+              "value":
+                  "A stupid person is a person who causes losses to another person or to a group of persons while himself deriving no gain and even possibly incurring losses."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "IV"},
+            {
+              "value":
+                  "Non-stupid people always underestimate the damaging power of stupid individuals. In particular non-stupid people constantly forget that at all times and places and under any circumstances to deal and/or associate with stupid people always turns out to be a costly mistake."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "V"},
+            {"value": "A stupid person is the most dangerous type of person."}
+          ]
+        },
+        {
+          "columns": [
+            {
+              "value":
+                  "Corollary: a stupid person is more dangerous than a pillager."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Corollaries First Law, by Giancarlo Livraghi",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "I"},
+            {
+              "value":
+                  "In each of us there is a factor of stupidity, which is always larger than we suppose"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "II"},
+            {
+              "value":
+                  "When the stupidity of one person combines with the stupidity of others, the impact grows geometrically – i.e. by multiplication, not addition, of the individual stupidity factors"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "III"},
+            {
+              "value":
+                  "The combination of intelligence in different people is more difficult than the combination of stupidity"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "value":
+                  "See Also: A Short Introduction to the History of Human Stupidity by Walter B. Pitkin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "About Stupidity",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Comes from the Latin verb stupere, for being numb or astonished, and is related to stupor."
+        },
+        {
+          "value":
+              "• Stupidity is a quality or state of being stupid, or an act or idea that exhibits properties of being stupid."
+        },
+        {
+          "value":
+              "• James F. Welles defines: The term may be used to designate a mentality which is considered to be informed, deliberate and maladaptive"
+        },
+        {
+          "value":
+              "• Wilfred Bion considered that psychological projection created a barrier against learning anything new, and thus its own form of pseudo-stupidity"
+        },
+        {
+          "value":
+              "• Otto Fenichel: People become stupid ad hoc, that is, when they do not want to understand, where understanding would cause anxiety or guilt feeling, or would endanger an existing neurotic equilibrium"
+        },
+        {
+          "value":
+              "• Jung: it requires no art to become stupid; the whole art lies in extracting wisdom from stupidity. Stupidity is the mother of the wise, but cleverness never"
+        },
+        {
+          "value":
+              "• Welles distinguishes stupidity from ignorance; one must know they are acting in their own worst interest. Secondly, it must be a choice, not a forced act or accident. Lastly, it requires the activity to be maladaptive, in that it is in the worst interest of the actor, and specifically done to prevent adaption to new data or existing circumstances"
+        }
+      ]
+    },
+    {
+      "title": "Kurt von Hammerstein-Equord",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• I divide my officers into four groups. There are clever, diligent, stupid, and lazy officers. Usually two characteristics are combined. Some are clever and diligent -  their place is the General Staff. The next lot are stupid and lazy, they make up 90 percent of every army and are suited to routine duties. Anyone who is both clever and lazy is qualified for the highest leadership duties, because he possesses the intellectual clarity and the composure necessary for difficult decisions. One must beware of anyone who is stupid and diligent - he must not be entrusted with any responsibility because he will always cause only mischief"
+        },
+        {
+          "value":
+              "• Kurt Freiherr von Hammerstein-Equord (26 September 1878 – 24 April 1943) was a German general who served for a period as Commander-in-Chief of the German Army. He was an ardent opponent of Hitler and the Nazi regime."
+        }
+      ]
+    },
+    {
+      "title": "Carlo M. Cipolla",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Carlo M. Cipolla (August 15, 1922 – September 5, 2000) Italian economic historian"
+        },
+        {
+          "value":
+              "• Published (in Italian) the title Allegro ma non troppo (1988) The Basic Laws of Human Stupidity"
+        },
+        {
+          "value":
+              "• Stupid people act as a group, more powerful by far than major organizations such as the mafia and the military industrial complex, which without regulations, leaders or manifesto nonetheless manages to operate to great effect and with incredible coordination"
+        },
+        {"value": "• See: https://en.wikipedia.org/wiki/Carlo_M._Cipolla"}
+      ]
+    },
+    {
+      "title": "Principles",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "Hanlon's razor"},
+            {
+              "value":
+                  "Never attribute to malice that which can be adequately explained by stupidity"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Occam's razor"},
+            {
+              "value":
+                  "Among competing hypotheses, the one with the fewest assumptions should be selected"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Dunning-Kruger effect"},
+            {
+              "value":
+                  "Occurs where people fail to adequately assess their level of competence — or specifically, their incompetence — at a task and thus consider themselves much more competent than everyone else. (people who are too stupid to know how stupid they are)"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Impostor Syndrome"},
+            {
+              "value":
+                  "Competent people tend to underestimate their ability compared to others"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Not Enough Know"},
+            {
+              "value":
+                  "A little knowledge is a dangerous thing. A small amount of knowledge can mislead a person into thinking that they're an expert because this small amount of knowledge isn't a well known fact"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Ignorance Confidence"},
+            {
+              "value":
+                  "Ignorance more frequently begets confidence than does knowledge"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Poe's Law"},
+            {
+              "value":
+                  "Without a clear indication of the author's intent, it is difficult or impossible to tell the difference between an expression of sincere extremism and a parody of extremism."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Peter's Principle"},
+            {
+              "value":
+                  "Sometimes I wonder whether the world is being run by smart people who are putting us on or by imbeciles who really mean it (Laurence J. Peter)"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Hatchett's Principle"},
+            {"value": "Real stupidity beats artificial intelligence every time"}
+          ]
+        },
+        {
+          "columns": [
+            {
+              "value":
+                  "Hanlon's razor is essentially a special case of Occam's razor (or Lex Parsimonae)\nRecomended Lectures: http://gandalf.it/stupid/stupid.htm\nVideo John Cleese on Stupidity: https://youtu.be/wvVPdyYeaQU"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "How Not To Look Stupid",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• A study offers a scientific answer.\nBalázs Aczél, a psychology professor at Eotvos Lorand University in Budapest is a co-author of a study, Aczél and his colleagues gathered 180 pieces of writing from the news, blog sites, and social media deemed as \"stupid\"\n\nResearchers noticed 3 different types of behaviors most often deemed as stupid.\nTheir statistical analysis of the data found that people regard stupid action in three different categories:\n\n(1) not maintaining a balance between confidence and abilities\n(2) failures of attention\n(3) lack of control\n\nExamples of the 3 categories:\n\n1. Overconfidence \nAczél term is \"confident ignorance,\" when someone is overconfident about their ability to do something. A driver refuses to ask for directions, and end up lost. \n2. Lack of control\nOn a diet but buys cookies in the grocery store \"just in case.\"\n3. Absent-mindedness \nYour mind is wandering or thinking in other thing. Crash!!!\n\nResearchers noted that more is needed to determine how much of their findings are influenced by culture and shared expectations.\n\nThe level of observed stupidity was dependent on the level of responsibility and the consequences of the action."
+        },
+        {
+          "value":
+              "• Published in Intelligence\nVolume 53, November–December 2015, Pages 51-58\nhttps://doi.org/10.1016/j.intell.2015.08.010"
+        }
+      ]
+    },
+    {
+      "title": "Bonhoeffer’s Theory of Stupidity",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Dietrich Bonhoeffer was a German theologian under the Nazi regime. He spent in prison for speaking against the Nazi regime. Thinking about was happening in Germany he came to the conclusion that \"the root of the problem was not malice, but stupidity.\" \nEvil can be exposed and fought against. Against stupidity we are defenseless. \n\"Stupidity is not an intellectual defect\", says Bonhoeffer, \"but a moral one. There are educated stupid people and wise uneducated people\"."
+        },
+        {
+          "value":
+              "• “We note further that people who have isolated themselves from others or who live in solitude manifest this defect less frequently than individuals or groups of people inclined or condemned to sociability. And so it would seem that stupidity is perhaps less a psychological than a sociological problem.”"
+        },
+        {
+          "value":
+              "• “It is a particular form of the impact of historical circumstances on human beings, a psychological concomitant of certain external conditions. Upon closer observation, it becomes apparent that every strong upsurge of power in the public sphere, be it of a political or of a religious nature, infects a large part of humankind with stupidity.”\n\n“Against stupidity we have no defense. Neither protests nor force can touch it. Reasoning is of no use. Facts that contradict personal prejudices can simply be disbelieved — indeed, the fool can counter by criticizing them, and if they are undeniable, they can just be pushed aside as trivial exceptions. So the fool, as distinct from the scoundrel, is completely self-satisfied. In fact, they can easily become dangerous, as it does not take much to make them aggressive. For that reason, greater caution is called for than with a malicious one. Never again will we try to persuade the stupid person with reasons, for it is senseless and dangerous.”"
+        },
+        {"value": "• We live in a world of endless stupidity"}
+      ]
+    },
+    {
+      "title": "Author: Jorge Juan Lafuente",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• Version 2.1 Feb 2023"},
+        {"value": "• God bless you with the gift of avoiding stupidity !"}
+      ]
+    },
   ]
 };

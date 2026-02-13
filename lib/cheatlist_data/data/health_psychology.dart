@@ -547,6 +547,124 @@ final dynamic healthPsychology = {
         {"value": "• Assimilation policy"},
         {"value": "• Recovery from trauma"}
       ]
-    }
+    },
+    {
+      "title": "Intro",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• What is health psychology?"},
+        {
+          "value":
+              "• the aggregate of the specific educational, scientific and professional contributions of the discipline of psychology to understanding the socio-environmental, behavioural , cognitive and emotional factors that influence: - Maintenance of optimal health - Development and course of illness and disease - Response to illness and disease – by patient, family, community, health care providers"
+        },
+        {"value": "• What is health?"},
+        {
+          "value":
+              "• Not being ill, an absence of symptoms, but also (1) physical fitness and vitality (2) health enhancing behaviour (3) psychosocial well-being (4) function (5) having a positive resource"
+        },
+        {
+          "value":
+              "• WHO definition of health: A state of complete physical, mental and social well-being and not merely the absence of disease or infirmity (World Health Organisation, 1948)"
+        },
+        {"value": "• Biopsychosocial model"},
+        {
+          "value":
+              "• the interaction between biological, psychological and social factors is a prime determinant of an individual’s health status"
+        },
+        {"value": "• bio = genetic predisposition + physiological functioning"},
+        {"value": "• psycho = cognition + motivation + emotion + personality"},
+        {
+          "value": "• social = culture +legislation + community + accessibility"
+        },
+        {
+          "value":
+              "• (1) health is a continuum (2) patient centred (3) coping is the best possible outcome if there is no cure"
+        },
+        {"value": "• Common measures of health status"},
+        {
+          "value":
+              "• life expectancy = # of years of life, on average, remaining to an individual at a particular age if death rates do not change.  Most commonly used measure is life expectancy at birth."
+        },
+        {
+          "value": "• mortality = # of deaths in a population at a given period"
+        },
+        {
+          "value":
+              "• morbidity = # cases of a disease that exist at some point of time --> measured by incidence (new cases) and prevalence (total # of existing cases)"
+        },
+        {
+          "value":
+              "•  burden of disease = the impact of a disease or injury on an individual or a population --> quantifies gap between a population's actual health and ideal level of health --> measures burden of living with ill health + dying prematurely using DALY"
+        },
+        {
+          "value":
+              "• Disability-Adjusted Life Years (DALY) = # of years of healthy life lost due to (1) premature death: cancer, cardiovascular disease, injuries or (2) living with ill health: mental and substance abuse, musculoskeletal disorders"
+        },
+        {"value": "• Health status of australians"},
+        {
+          "value":
+              "• Average life expectancy was 80.4 years for males, 84.6 for females. Death rates continue to fall, despite increases in absolute # of deaths"
+        },
+        {
+          "value":
+              "• 2013 premature deaths (<75 years) = (1) coronary heart disease (2) lung cancer (3) suicide"
+        },
+        {
+          "value":
+              "• Leading causes of death are most valuable when making comparisons over time or between population groups"
+        },
+        {
+          "value":
+              "• 5 risk factos for potentially avoidable deaths (1) tobacco use (2) high body mass (3) high alcohol use (4) physical inactivity (5) high blood pressure"
+        },
+        {
+          "value":
+              "• potentially avoidable deaths = deaths that could have been avoided given timely and effective health care -> represents underlying population health and accessibility / effectiveness of health syste"
+        },
+        {
+          "value":
+              "• Health inequalities: Aboriginal and Torres Strait Islander people; Low SES; Rural and remote populations; People with disability; LGBT and intersex people; Veterans; Prisoners"
+        },
+        {"value": "• Chronic diseases AKA non-communicable diseases"},
+        {
+          "value":
+              "• are long lasting, persistent and need LT management --> responsible for greatest amount of illness, death and DALY."
+        },
+        {
+          "value":
+              "• Eight major chronic diseases (1) arthritis (2) asthma (3) back pain and problems (4) cancer (5) cardiovascular disease (6) chronic obstructive pulmonary disease (7) diabetes (8) mental health conditions"
+        },
+        {
+          "value":
+              "• dementia  characterised by the gradual impairment of brain function + affects memory, cognition and personality + irreversible and progressive -> not caused by age, primarily affects older people >65"
+        },
+        {
+          "value":
+              "• diabetes (1) autoimmune, childhood onset inability to produce insulin, (2) genetic + environment, not being able to use insulin effectively -> increases rapidly with age"
+        },
+        {"value": "• Levels of prevention"},
+        {
+          "value":
+              "• primary = preventing the occurence of the disease, e.g. childhood obesity"
+        },
+        {
+          "value":
+              "• secondary = preventing / slowing progress of a disease before it causes significant negative health consequences, e.g. smoking"
+        },
+        {
+          "value":
+              "• tertiary = treating / managing a disease to reduce its impact, e.g. diabetes"
+        },
+        {"value": "• health psychology in practice"},
+        {
+          "value":
+              "• clinical health psychologists = illness assessment, treatment and rehabilitation, mainly secondary and tertiary"
+        },
+        {
+          "value":
+              "• population health psychologists = health promotion, illness prevention, primary"
+        }
+      ]
+    },
   ]
 };

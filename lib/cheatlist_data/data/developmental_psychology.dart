@@ -1544,6 +1544,461 @@ final dynamic developmentalPsychology = {
         },
         {"value": "• PLAY <=> Learning"}
       ]
-    }
+    },
+    {
+      "title": "Pregnancy - First Trimester",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Zygote = 1 cell, sperm & egg\n\nEmbryo = attaches to uterine wall\n\nFetus = movement occurs\n\nTeratogen = substance that causes birth defects\n\nreflexes = suck, swallow, touch"
+        }
+      ],
+      "image": "PREGNANCY___FIRST_TRIMESTER"
+    },
+    {
+      "title": "Carol Gilligan",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• attachment\n\nMother - imprint (Konrad Lorenz)\n\n(Harry Harlow - experiments with monkeys and attachment to mothers)\n\nBoys = justice\nGirls = caring\n\nmoral development based on relationship with mothers"
+        }
+      ]
+    },
+    {
+      "title": "Infant Reflexes",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• Babinski, Moro, Palmar Reflexes\n\n"}
+      ],
+      "youtube": "0V4x0iQODTk"
+    },
+    {
+      "title": "Moro Reflex",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• Normal reflex in newborns - 3-4 months."},
+        {
+          "value":
+              "• Absence of reflex may suggest injury to bones or spinal cord.\n\nAKA: Startle response; Startle reflex; Embrace reflex"
+        }
+      ],
+      "youtube": "s_lAFst43TE"
+    },
+    {
+      "title": "Babinski Reflex",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Normal in children up to 2 years old, disappears as the child gets older (maybe as early as 12 months)\n\nPresent in a child older than 2 years/adult, often a sign of a brain or nervous system disorder -\n•Amyotrophic lateral sclerosis (Lou Gehrig disease) \n•Brain tumor or injury   \n•Meningitis\n•Multiple sclerosis   \n•Spinal cord injury, defect, or tumor \n•Stroke\n\nMedlinePlus"
+        }
+      ],
+      "image": "BABINSKI_REFLEX"
+    },
+    {
+      "title": "Palmar Reflex",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• flexion of the fingers following tickling of the palm in infants.\n\nReappearance may be attributed to certain neurological conditions (dementia, lesions, stroke)"
+        }
+      ],
+      "image": "PALMAR_REFLEX"
+    },
+    {
+      "title": "Noam Chomsky",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Language development - children have language acquisition device - universal built in mental system that steers us toward interpreting and using language in particular ways."
+        }
+      ]
+    },
+    {
+      "title": "Freud - Psychosexual Stages",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• -Freud proposed that personality development in childhood takes place during five psychosexual stages.\n -Oral (Birth-1yr)\n -Anal (1-3yr)\n -Phallic (3-6yr)\n -Latency (6yr-pubuerty)\n -Genital (puberty adult)\n\n-Oedipus Complex\n -Phallic Stage\n -children experience an unconscious feeling of desire for their opposite-sex parent and jealousy and envy toward their same-sex parent."
+        }
+      ],
+      "image": "FREUD___PSYCHOSEXUAL_STAGES"
+    },
+    {
+      "title": "Whorfian Hypothesis",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• a theory in linguistics: one's language determines one's conception of the world\n\nThe strong version says that language determines thought, and that linguistic categories limit and determine cognitive categories, whereas the weak version says only that linguistic categories and usage influence thought and certain kinds of non-linguistic behavior."
+        }
+      ]
+    },
+    {
+      "title": "Pregnancy",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "Age of Viability"},
+            {
+              "value":
+                  "Age at which babies can survive if a premature birth were to happen; Currently 26-28 weeks"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Embryonic Stage"},
+            {"value": "Second stage of prenatal development; 2 weeks-8 weeks"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Fetal Alcohol Syndrome"},
+            {
+              "value":
+                  "Problems associated with excessive drinking during pregnancy"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Fetal Stage"},
+            {"value": "Third stage of prenatal development; 2 months- birth"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Germinal Stage"},
+            {
+              "value":
+                  "First phase of prenatal development; conception- 2 weeks"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Placenta"},
+            {
+              "value":
+                  "Allows oxygen and nutrients to pass into fetus from mom and for waste to exit"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Prenatal Period"},
+            {"value": "Extends from conception to birth"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "teratogenic"},
+            {
+              "value":
+                  "External factors that can negatively affect a baby negatively"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Zygote"},
+            {"value": "One celled organism formed by union of sperm and egg"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Puberty/Sex/Gender",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "Gender"},
+            {
+              "value":
+                  "Culturally constructed distinctions between femininity and masculinity"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Gender Differences"},
+            {
+              "value":
+                  "Actual differences between sexes in behavior and ability"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Gender Roles"},
+            {"value": "Expectations about what's appropriate for each sex"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Gender Stereotypes"},
+            {
+              "value":
+                  "Wildly help beliefs about male and female abilities, personality traits, and behaviors"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Menarche"},
+            {"value": "First menstruation cycle"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Primary Sex Characteristic"},
+            {"value": "Structures needed for reproduction"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Puberty"},
+            {
+              "value":
+                  "Period of sexual maturation where one is able to reproduce"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Pubescence Secondary"},
+            {"value": "Secondary sex characteristics (ex. breasts)"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Sex Characteristics"},
+            {
+              "value":
+                  "Physical or behavioral traits that indicate biological sex"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Spermarche"},
+            {"value": "First occurrence of ejaculation"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Sex"},
+            {"value": "Biologically based categories of male and female"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Understanding Infants 3",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• 6-12 months Reflexes"},
+        {
+          "value":
+              "• 6 to 9 months• rolls both ways• sits without support; stands with assistance• picks up toys with thumb and side of forefinger• moves between sitting and lying down• crawls, creeps or shuffles on bottom9 to 12 months• pulls up into an unsteady stand a month or two before first step• points with index finger"
+        }
+      ]
+    },
+    {
+      "title": "Understanding Infants",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Head to foot. Long before birth, the baby’s head takes the lead in development. A newborn’s head is still large in proportion to the body. The same head-to-toe pattern continues after birth. Near to far. Development starts at the trunk of the body and moves outward. First, babies simply wave their arms when they see an object they wantSimple to Complex. At first, babies’ main activities are sleeping and eating. Gradually, they learn more complicated tasks"
+        }
+      ],
+      "image": "UNDERSTANDING_INFANTS"
+    },
+    {
+      "title": "Theorsts 1",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "Erik Erison"},
+            {"value": "Montessori"},
+            {"value": "Jean Piaget"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Trust vs. Mistrust Age: Infancy o to 1"},
+            {"value": "Children thrive on order and structure"},
+            {
+              "value":
+                  "Sensorimotor(0-2 yrs) they exist separately from the objects and people around them"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Autonomy Vs. Shame Age: 1-3"},
+            {"value": "Children move through sensitive periods"},
+            {
+              "value":
+                  "Preoperational(2-7 yrs)Once children acquire language, they are able to use symbols"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Intiatve vs Guilt Age: 3-5"},
+            {"value": "Children need freedom"},
+            {
+              "value":
+                  "Concrete Operational(7-11 yrs)children are able to see things from different points of view and to imagine events that occur outside their own lives."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Industry Vs Inferiority Age: 5 -12"},
+            {"value": "Children absorb their culture"},
+            {
+              "value":
+                  "Formal Operational(11+ yrs)round the onset of puberty, children are able to reason in much more abstract ways and to test hypotheses"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Ego Identity VS Role Confusion Age: 12- 18"},
+            {"value": "Little Teachers: Listening better to older children"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Generativity Vs. Stagnation Care. Age: 40 - 65"},
+            {"value": "Children are natural learners"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Ego Integrity Vs Despair 65+"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Reflexes",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "Babinksi"},
+            {"value": "Stimulation: Sole of foot stroked"},
+            {"value": "Fans out toes and twists foot in"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Blinking"},
+            {"value": "Flash of light or puff of air"},
+            {"value": "Closes eyes"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Grasping"},
+            {"value": "Palms Touched"},
+            {"value": "Grasps Tightly"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Moro"},
+            {"value": "Sudden move; Loud noise"},
+            {
+              "value":
+                  "Startles; throws out arms and legs and then pulls them toward body"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Rooting"},
+            {"value": "Cheek stroked or side of mouth touched"},
+            {"value": "Turns toward source, opens mouth and sucks"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Stepping"},
+            {"value": "Infant held upright with feet touching ground"},
+            {"value": "Moves feet as if to walk"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Sucking"},
+            {"value": "Mouth touched by object"},
+            {"value": "Sucks on object"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Swimming"},
+            {"value": "Placed face down in water"},
+            {"value": "Makes coordinated swimming movements"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Tonic Neck"},
+            {"value": "Placed on back"},
+            {"value": "Makes fists and turns head to the right"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Understanding Infants 2",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• Milestones in the First Year"},
+        {
+          "value":
+              "• 1 to 3 months• prefers looking at high areas of faces: forehead, eyes, mouth visually follows a bright object when it is moved slowly.hands open out from fists. 2 to 4 months• when placed on tummy, baby can lift head and shoulders• can briefly hold a toy when you place it in his palms• brings hands into eye range.4 to 6 months• begins to roll from tummy to back• reaches for objects• brings toys to mouth to explore them"
+        }
+      ]
+    },
+    {
+      "title": "Conception to First Year",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "Germinal"},
+            {"value": "conception to implantation"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Embryonic"},
+            {"value": "implantation to 8 weeks"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "Fetal"},
+            {"value": "8 weeks to birth"}
+          ]
+        }
+      ]
+    },
   ]
 };

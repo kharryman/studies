@@ -767,5 +767,351 @@ final dynamic socialPsychology = {
         }
       ]
     },
+    {
+      "title": "INTERPERSONAL THEORIES",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• Social cognitive theory BANDURA"},
+        {
+          "value":
+              "• Health behavioural change is the result of reciprocal relationships among the environment, personal factors and attributes of the behaviour itself."
+        },
+        {
+          "value":
+              "• (1) Self efficacy is the confidence in one's abilities to take action and overcome barriers"
+        },
+        {
+          "value":
+              "• (2) Reciprocal determinism = dynamic interaction of person, behaviour and environment in promoting behavioural change"
+        },
+        {
+          "value":
+              "• (3) behavioural capability = knowledge and skill to perform a given behaviour"
+        },
+        {"value": "• (4) expectations = anticipated outcomes of a behaviour"},
+        {"value": "• (5) observational learning = imitating"}
+      ]
+    },
+    {
+      "title": "Relationships",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "ALTMAN & TAYLOR"},
+            {"value": "social penetration theory"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "DION et al"},
+            {"value": "attractive people ratedas kind, strong & successful"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "WALSTER et al"},
+            {"value": "matching hypothesis"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "KERCKHOFF & DAVIS"},
+            {"value": "filter theory"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "THIBAULT & KELLEY"},
+            {"value": "social exchange theory"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "WALSTER et al"},
+            {"value": "equity theory"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "RUSBULT"},
+            {"value": "investment model"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "DUCK"},
+            {"value": "phase model"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "SPROULL & KIESLER"},
+            {"value": "reduced cues theory"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "WALTHER"},
+            {"value": "hyperpersonal model"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "MCKENNA & BERGH"},
+            {"value": "absence of gating"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "MALTBY et al"},
+            {"value": "levels of parasocial relationships"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "MCCUTCHEON"},
+            {"value": "absorption-addiction model"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "BOWLBY"},
+            {"value": "attachment theory explanation (early attachment)"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "AINSWORTH"},
+            {"value": "attachment theory (insecure-resistant=more likely)"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Relationships Evaluation",
+      "type": "TABLE",
+      "data": [
+        {
+          "columns": [
+            {"value": "BUSS"},
+            {
+              "value":
+                  "survey -> emphasis on characteristics diff. between males and females"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "CLARK & HATFIELD"},
+            {
+              "value":
+                  "q: 'i find you attractive, would you go to bed with me tonight?'"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "SINGH"},
+            {"value": "0.7 waist to hip ratio indicates fertility"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "MILLER et al"},
+            {"value": "lap dance study"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "SPRECHER & HENDRICK"},
+            {"value": "rel. satisfaction and self-disclosure"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "TANG et al"},
+            {
+              "value":
+                  "china -> self-disclosure less likely to => rel. satisfaction"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "DUCK"},
+            {"value": "phase model"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "PALMER & PETERSON"},
+            {
+              "value":
+                  "physically attractive rated more politically knowledgeable & competent"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "TOWHEY"},
+            {"value": "sexist belief => more likely desire phy. att."}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "WALSTER et al"},
+            {"value": "preferred more phy. att."}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "FEINGOLD"},
+            {"value": "similarity between ratings of att. in actual couples"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "KERCKHOFF & DAVIS"},
+            {"value": "short and long-term importance in filters"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "WINCH"},
+            {"value": "similarity typical to beginning attraction"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "LEVINGER"},
+            {"value": "social change prevented replication"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "ANDERSON et al"},
+            {"value": "older partners = diff. filter order"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "CLARK & MILLS"},
+            {"value": "exchange & communal rel."}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "WALSTER et al"},
+            {"value": "equity theory"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "UTNE et al"},
+            {"value": "survey, equitable = more satisfied"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "AUMER-RYAN et al"},
+            {"value": "cultural influences (individualistic & collectivist)"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "HUSEMAN et al"},
+            {"value": "benevolents"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "LE & AGNEW"},
+            {"value": "greatest commitment => most stable, long- lasting"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "RUSBULT"},
+            {"value": "commited 'battered' women more likely return"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "GOODFRIEND & AGNEW"},
+            {"value": "invest in future plans"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "ROLLIE & DUCK"},
+            {"value": "added resurrection"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "AKERT"},
+            {"value": "person who initiates sufferers less"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "KELLIN"},
+            {"value": "gender diff. in late phases"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "WALTHER & TIDWELL"},
+            {"value": "non verbal cues not absent but diff."}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "PAINE et al"},
+            {"value": "self disclosure depends on type of CMC"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "WHITTY & JOINSON"},
+            {"value": "online q = more direct, intimate"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "MCKENNA & BARGH"},
+            {
+              "value":
+                  "lonely & socially anxious people able too express true selves"
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "MALTBY et al"},
+            {"value": "link: celebrity worship & body image in girls"}
+          ]
+        },
+        {
+          "columns": [
+            {"value": "MCCUTCHEON et al"},
+            {
+              "value":
+                  "insecure attachments no more likely to form parasocial rel."
+            }
+          ]
+        },
+        {
+          "columns": [
+            {"value": "SCHMID & KLIMMT"},
+            {
+              "value":
+                  "similar attachment to Harry Potter in individualist & collectivist culture"
+            }
+          ]
+        }
+      ]
+    },
   ]
 };

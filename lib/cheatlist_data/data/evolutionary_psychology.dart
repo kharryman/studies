@@ -167,6 +167,135 @@ final dynamic evolutionaryPsychology = {
               "• Sensory Adaptation - neural receptors reduce sensitivity to continual stimulus (ie - adapt hot/cold water after brief time, eyes adjust dark room (cones 10 min, rods 30), smell own house)\n\nHabituation - decreased response to stimulus after repeated behavior, used to elicit stronger response (alcohol 1st drink vs alcoholic taking a drink, favorite food, living near train track)\n\nsensitization repeated intense stimulus increases response to weaker"
         }
       ]
-    }
+    },
+    {
+      "title": "Sensory Adaptation & Habituation",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• \n\nSensory Adaptation - neural receptors reduce sensitivity to continual stimulus (ie - adapt hot/cold water after brief time, eyes adjust dark room (cones 10 min, rods 30), smell own house)\n\nHabituation - decreased response to stimulus after repeated behavior, used to elicit stronger response (alcohol 1st drink vs alcoholic taking a drink, favorite food, living near train track)\n\nsensitization repeated intense stimulus increases response to weaker"
+        }
+      ],
+      "youtube": "PnKSA6fGp6w"
+    },
+    {
+      "title": "Evolutionism",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• Natural selection"},
+        {
+          "value":
+              "• Spontaneous variability of characteristics of individuals of a species"
+        },
+        {"value": "• Heredity"},
+        {"value": "• Consequences for psychology"},
+        {"value": "• Social consequences"}
+      ]
+    },
+    {
+      "title": "Samuel Butler",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• English writer, thinker, painter, musician and traveler"},
+        {
+          "value":
+              "• Inspired by evolutionism, he came to the conclusion that machines are also subject to evolution"
+        },
+        {"value": "• \"Darwin among the Machines\""}
+      ]
+    },
+    {
+      "title": "The aforementioned Xanthopan morgani",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• A night butterfly whose existence was predicted by Darwin after learning about a species of night orchid and a very long calyx"
+        }
+      ],
+      "image": "THE_AFOREMENTIONED_XANTHOPAN_MORGANI"
+    },
+    {
+      "title": "Francis Galton",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• Distinguished in many areas of science, including: psychology of individual differences"
+        },
+        {
+          "value":
+              "• He learned the alphabet at the age of 1.5 and learned to read at the age of 2.5. At the age of 6, he knew large sections of Homer's Iliad by heart"
+        },
+        {"value": "• The first used fingerprints to identify people"},
+        {"value": "• He co-founded eugenics"},
+        {
+          "value":
+              "• Through research on intellectual talent, he came to the conclusion that environment was much less important than heredity"
+        },
+        {"value": "• Regression towards the mean"},
+        {"value": "• Research on associations"},
+        {"value": "• Research on mental imagery"},
+        {"value": "• Research on the effectiveness of prayer"}
+      ]
+    },
+    {
+      "title": "George John Romanes",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• He was the first to systematically study animal intelligence"
+        },
+        {"value": "• Anecdotal method"},
+        {"value": "• Introspection by analogy"},
+        {"value": "• Ladder of mental functioning"}
+      ]
+    },
+    {
+      "title": "Conwy Lloyd Morgan",
+      "type": "NORMAL",
+      "data": [
+        {"value": "• Philosopher, psychologist, zoologist"},
+        {"value": "• Law of Parsimony (Morgan's Canon)"},
+        {
+          "value":
+              "• Abandoning the anecdotal method of Romanes, limiting introspection by analogy"
+        },
+        {"value": "• The study of instinctive behavior"},
+        {"value": "• You should avoid anthropomorphizing animals"}
+      ]
+    },
+    {
+      "title": "Wilhelm Wundt",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• -Struct​uralist\n\n-Known as the “father of experimental psychology”\n\n-Founder of the first psychology laboratory in Leipzig, Germany in 1879"
+        }
+      ]
+    },
+    {
+      "title": "William James",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• -Functionalist\n\n-Conscience and behavior helped people and animals adjust to the environment.\n\n-Father of modern Psychology"
+        }
+      ]
+    },
+    {
+      "title": "Struct​ura​lists",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• -Wilhelm Wundt, Edward Titchener\n\n-Wanted to discover form of mental experi​ence. Intr​osp​ect​ion reporting own conscious thoughts and feelings\n\n-Uses the method of introspection to identify the basic elements or “structures” of psychological experience"
+        }
+      ]
+    },
   ]
 };

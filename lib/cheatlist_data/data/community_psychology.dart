@@ -61,6 +61,16 @@ final dynamic communityPsychology = {
               "• (5) observability = are the results easily observable and measurable?"
         }
       ]
-    }
+    },
+    {
+      "title": "Psychodynamic Approach",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• thoughts feelings behaviors come from interaction of drives & society restrictions on your ability to express them\n\nFreud (sex/ aggressive drives most important) Much behavior unconscious & rooted in childhood"
+        }
+      ]
+    },
   ]
 };

@@ -81,6 +81,41 @@ final dynamic environmentalPsychology = {
               "• \nFrankl's view is contrary to the opinion of other experts where the goal of humans is self-actualization"
         }
       ]
-    }
+    },
+    {
+      "title": "Biological Approach",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• focus on understanding how physiological & biochemical processes = psychological phenomena\n\ngenes, nervous system, hormones, neurotransmitters"
+        }
+      ]
+    },
+    {
+      "title": "Flynn Effect",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• nurture refers to the effects of the environment on development\n\n\"secular rise in IQ scores\"\n\nsubstantial and long-sustained increase in both fluid and crystallized intelligence test scores measured in many parts of the world from roughly 1930 to the present day.\n\nNew test subjects take older tests, almost every case average scores are significantly above 100. Test score increases continuous & approx. linear from earliest years of testing to present"
+        }
+      ],
+      "image": "FLYNN_EFFECT"
+    },
+    {
+      "title": "Naturalistic Observation",
+      "type": "NORMAL",
+      "data": [
+        {
+          "value":
+              "• -Naturalistic observation is a research method in which people or other subjects are observed in their natural setting."
+        },
+        {
+          "value":
+              "• -Psychologists and other social scientists use naturalistic observation to study specific social or cultural settings that couldn't be investigated in other ways, such as prisons, bars, and hospitals."
+        }
+      ]
+    },
   ]
 };
